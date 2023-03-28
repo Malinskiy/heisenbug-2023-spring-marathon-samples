@@ -1,0 +1,12 @@
+name: "My awesome tests"
+outputDir: "marathon"
+debug: false
+# https://docs.marathonlabs.io/configuration/retries#fixed-quota-retry-strategy
+retryStrategy:
+  type: "fixed-quota"
+  totalAllowedRetryQuota: 100
+  retryPerTestQuota: 3
+vendorConfiguration:
+  type: "Android"
+  applicationApk: "../../dist/app-debug.apk"
+  testApplicationApk: "../../dist/app-debug-androidTest.apk"

@@ -1,0 +1,12 @@
+name: "My awesome tests"
+outputDir: "marathon"
+debug: false
+filteringConfiguration:
+  allowlist:
+    # https://docs.marathonlabs.io/configuration/filtering#regex-filtering
+    - type: "fully-qualified-test-name"
+      regex: "com.example.*"
+vendorConfiguration:
+  type: "Android"
+  applicationApk: "../../dist/app-debug.apk"
+  testApplicationApk: "../../dist/app-debug-androidTest.apk"

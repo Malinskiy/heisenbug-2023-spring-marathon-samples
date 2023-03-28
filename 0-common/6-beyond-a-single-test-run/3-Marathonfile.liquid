@@ -1,0 +1,32 @@
+{% comment %} https://shopify.github.io/liquid/ {% endcomment %}
+name: "{{ name | default: "Marathon test run"}}"
+outputDir: "{{ output }}"
+{%- if analytics.enabled %}
+analyticsConfiguration:
+  type: "influxdb2"
+  url: "{{ influxUrl }}"
+  token: "{{ influxToken }}"
+  organization: "{{ influxOrg }}"
+  bucket: "{{ influxBucket }}"
+  retentionPolicyConfiguration:
+    everySeconds: 604800  # 7 weeks
+    shardGroupDurationSeconds: 0
+flakinessStrategy:
+  type: "probability"
+  minSuccessRate: 0.9
+  maxCount: 2
+  timeLimit: "{{ timeLimit }}"
+sortingStrategy:
+  type: "execution-time"
+  percentile: 80.0
+  timeLimit: "{{ timeLimit }}"  
+{%- endif %}
+batchingStrategy:
+  type: "fixed-size"
+  size: 5
+  lastMileLength: 50
+{%- if analytics.enabled %}
+  percentile: 80.0
+  durationMillis: {{ batchDurationMillis | default: 150000 }}
+  timeLimit: "{{ timeLimit }}"
+{%- endif %}

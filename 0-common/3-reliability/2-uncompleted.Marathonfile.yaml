@@ -1,0 +1,9 @@
+name: "My awesome tests"
+outputDir: "marathon"
+debug: false
+# https://docs.marathonlabs.io/intro/configure#uncompleted-test-retry-quota
+uncompletedTestRetryQuota: 100
+vendorConfiguration:
+  type: "Android"
+  applicationApk: "../../dist/app-debug.apk"
+  testApplicationApk: "../../dist/app-debug-androidTest.apk"

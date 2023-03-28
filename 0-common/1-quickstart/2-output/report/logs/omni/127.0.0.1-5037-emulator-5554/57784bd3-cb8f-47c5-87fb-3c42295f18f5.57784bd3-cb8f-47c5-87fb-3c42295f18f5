@@ -1,0 +1,58 @@
+03-27 15:45:12.723 6721-10009/? I/NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService started execution. cause:9 exec_start_elapsed_seconds: 2663 [CONTEXT service_id=218 ]
+03-27 15:45:12.727 6721-6757/? I/NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService finished executing. cause:9 result: 1 elapsed_millis: 13 uptime_millis: 13 exec_start_elapsed_seconds: 2663 [CONTEXT service_id=218 ]
+03-27 15:45:12.786 18060-18060/? D/AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+03-27 15:45:12.790 18060-18060/? I/AndroidRuntime: Using default boot image
+03-27 15:45:12.790 18060-18060/? I/AndroidRuntime: Leaving lock profiling enabled
+03-27 15:45:12.790 18060-18060/? W/libc: Access denied finding property "odsign.verification.success"
+03-27 15:45:12.792 18060-18060/? W/app_process: ART APEX data files are untrusted.
+03-27 15:45:12.787 18060-18060/? W/app_process: type=1400 audit(0.0:76): avc: denied { read } for name="u:object_r:odsign_prop:s0" dev="tmpfs" ino=203 scontext=u:r:shell:s0 tcontext=u:object_r:odsign_prop:s0 tclass=file permissive=0
+03-27 15:45:12.858 18060-18060/? D/app_process: Time zone APEX ICU file found: /apex/com.android.tzdata/etc/icu/icu_tzdata.dat
+03-27 15:45:12.858 18060-18060/? D/app_process: I18n APEX ICU file found: /apex/com.android.i18n/etc/icu/icudt68l.dat
+03-27 15:45:12.864 18060-18060/? W/app_process: Unexpected CPU variant for X86 using defaults: x86_64
+03-27 15:45:12.877 18060-18060/? D/AndroidRuntime: Calling main entry com.android.commands.am.Am
+03-27 15:45:12.882 540-3714/? I/ActivityManager: Force stopping com.example appid=10171 user=0: start instr
+03-27 15:45:12.883 540-3714/? D/CompatibilityChangeReporter: Compat change id reported: 135634846; UID 10171; state: DISABLED
+03-27 15:45:12.883 540-3714/? D/CompatibilityChangeReporter: Compat change id reported: 177438394; UID 10171; state: DISABLED
+03-27 15:45:12.883 540-3714/? D/CompatibilityChangeReporter: Compat change id reported: 135772972; UID 10171; state: DISABLED
+03-27 15:45:12.883 540-3714/? D/CompatibilityChangeReporter: Compat change id reported: 135754954; UID 10171; state: ENABLED
+03-27 15:45:12.884 540-569/? D/CompatibilityChangeReporter: Compat change id reported: 143937733; UID 10171; state: ENABLED
+03-27 15:45:12.894 334-334/? D/Zygote: Forked child process 18084
+03-27 15:45:12.894 540-569/? I/ActivityManager: Start proc 18084:com.example/u0a171 for added application com.example
+03-27 15:45:12.899 18084-18084/? I/com.example: Late-enabling -Xcheck:jni
+03-27 15:45:12.924 18084-18084/? W/com.example: Unexpected CPU variant for X86 using defaults: x86_64
+03-27 15:45:12.927 429-476/? I/adbd: jdwp connection from 18084
+03-27 15:45:12.934 540-3714/? D/CompatibilityChangeReporter: Compat change id reported: 168419799; UID 10171; state: DISABLED
+03-27 15:45:12.940 18084-18084/? D/CompatibilityChangeReporter: Compat change id reported: 171979766; UID 10171; state: ENABLED
+03-27 15:45:12.947 18084-18084/? W/com.example: ClassLoaderContext classpath size mismatch. expected=0, found=1 (PCL[] | PCL[/system/framework/android.test.runner.jar*1585996318])
+03-27 15:45:12.949 18084-18084/? W/com.example: ClassLoaderContext classpath size mismatch. expected=0, found=2 (PCL[] | PCL[/system/framework/android.test.runner.jar*1585996318:/system/framework/android.test.mock.jar*2265025959])
+03-27 15:45:13.266 11419-18105/? I/ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+03-27 15:45:13.278 18084-18084/? V/GraphicsEnvironment: ANGLE Developer option for 'com.example' set to: 'default'
+03-27 15:45:13.278 18084-18084/? V/GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+03-27 15:45:13.279 18084-18084/? D/ApplicationLoaders: Returning zygote-cached class loader: /system/framework/android.test.base.jar
+03-27 15:45:13.281 18084-18084/? D/ApplicationLoaders: Returning zygote-cached class loader: /system/framework/android.test.base.jar
+03-27 15:45:13.282 18084-18084/? W/com.example: ClassLoaderContext shared library size mismatch. Expected=0, found=2 (PCL[] | PCL[]{PCL[/system/framework/android.test.base.jar*3790657674]#PCL[/system/framework/android.test.mock.jar*2265025959]})
+03-27 15:45:13.282 18084-18084/? W/com.example: ClassLoaderContext shared library size mismatch. Expected=0, found=3 (PCL[] | PCL[]{PCL[/system/framework/android.test.base.jar*3790657674]#PCL[/system/framework/android.test.mock.jar*2265025959]#PCL[/system/framework/android.test.runner.jar*1585996318]{PCL[/system/frame
+03-27 15:45:13.282 18084-18084/? W/com.example: work/android.test.base.jar*3790657674]#PCL[/system/framework/android.test.mock.jar*2265025959]}};PCL[/system/framework/android.test.runner.jar*1585996318:/system/framework/android.test.mock.jar*2265025959:/system/framework/android.test.base.jar*3790657674:/data/app/~~qcd1JQQW1Qzwv5l_hOJ5Rw==/com.example.test-IDcQC9ckNSUSTMS6X974zw==/base.apk*2240254083:/data/app/~~qcd1JQQW1Qzwv5l_hOJ5Rw==/com.example.test-IDcQC9ckNSUSTMS6X974zw==/base.apk!classes2.dex*906315234:/data/app/~~qcd1JQQW1Qzwv5l_hOJ5Rw==/com.example.test-IDcQC9ckNSUSTMS6X974zw==/base.apk!classes3.dex*1610110779:/data/app/~~qcd1JQQW1Qzwv5l_hOJ5Rw==/com.example.test-IDcQC9ckNSUSTMS6X974zw==/base.apk!classes4.dex*751498181:/data/app/~~qcd1JQQW1Qzwv5l_hOJ5Rw==/com.example.test-IDcQC9ckNSUSTMS6X974zw==/base.apk!classes5.dex*1250849136:/data/app/~~qcd1JQQW1Qzwv5l_hOJ5Rw==/com.example.test-IDcQC9ckNSUSTMS6X974zw==/base.apk!classes6.dex*3840010509:/data/app/~~EHvjL75SPrmlp0DaBFja1A==/com.example-qetVt8v6Ik-9NGp67zhHbg==/base.apk*3134142535:/data/app/~~EHvjL75SPrmlp0DaBFja1A==/com.example-qetVt8v6Ik-9NGp67zhHbg==/base.apk!classes2.dex*1258719502:/data/app/~~EHvjL75SPrmlp0DaBFja1A==/com.example-qetVt8v6Ik-9NGp67zhHbg==/base.apk!classes3.dex*4051016188])
+03-27 15:45:13.283 18084-18084/? W/com.example: ClassLoaderContext classpath size mismatch. expected=0, found=1 (PCL[] | PCL[/system/framework/android.test.runner.jar*1585996318]{PCL[/system/framework/android.test.base.jar*3790657674]#PCL[/system/framework/android.test.mock.jar*2265025959]#PCL[/system/framework/android.test.runner.jar*1585996318]{PCL[/system/framework/android.test.base.jar*3790657674]#PCL[/system/framework/android.test.mock.jar*2265025959]}};PCL[/system/framework/android.test.runner.jar*1585996318:/system/framework/android.test.mock.jar*2265025959:/system/framework/android.test.base.jar*3790657674:/data/app/~~qcd1JQQW1Qzwv5l_hOJ5Rw==/com.example.test-IDcQC9ckNSUSTMS6X974zw==/base.apk*2240254083:/data/app/~~qcd1JQQW1Qzwv5l_hOJ5Rw==/com.example.test-IDcQC9ckNSUSTMS6X974zw==/base.apk!classes2.dex*906315234:/data/app/~~qcd1JQQW1Qzwv5l_hOJ5Rw==/com.example.test-IDcQC9ckNSUSTMS6X974zw==/base.apk!classes3.dex*1610110779:/data/app/~~qcd1JQQW1Qzwv5l_hOJ5Rw==/com.example.test-IDcQC9ckNSUSTMS6X974zw==/base.apk!classes4.dex*751498181:/data/app/~~qcd1JQQW1Qzwv5l_hOJ5Rw==/com.example.test-IDcQC9ckNSUSTMS6X974zw==/base.apk!classes5.dex*1250849136:/data/app/~~qcd1JQQW1Qzwv5l_hOJ5Rw==/com.example.test-IDcQC9ckNSUSTMS6X974zw==/base.apk!classes6.dex*3840010509:/data/app/~~EHvjL75SPrmlp0DaBFja1A==/com.example-qetVt8v6Ik-9NGp67zhHbg==/base.apk*3134142535:/data/app/~~EHvjL75SPrmlp0DaBFja1A==/com.example-qetVt8v6Ik-9NGp67zhHbg==/base.apk!classes2.dex*1258719502:/data/app/~~EHvjL75SPrmlp0DaBFja1A==/com.example-qetVt8v6Ik-9NGp67zhHbg==/base.apk!classes3.dex*4051016188])
+03-27 15:45:13.283 18084-18084/? W/com.example: ClassLoaderContext classpath size mismatch. expected=0, found=2 (PCL[] | PCL[/system/framework/android.test.runner.jar*1585996318:/system/framework/android.test.mock.jar*2265025959]{PCL[/system/framework/android.test.base.jar*3790657674]#PCL[/system/framework/android.test.mock.jar*2265025959]#PCL[/system/framework/android.test.runner.jar*1585996318]{PCL[/system/framework/android.test.base.jar*3790657674]#PCL[/system/framework/android.test.mock.jar*2265025959]}};PCL[/system/framework/android.test.runner.jar*1585996318:/system/framework/android.test.mock.jar*2265025959:/system/framework/android.test.base.jar*3790657674:/data/app/~~qcd1JQQW1Qzwv5l_hOJ5Rw==/com.example.test-IDcQC9ckNSUSTMS6X974zw==/base.apk*2240254083:/data/app/~~qcd1JQQW1Qzwv5l_hOJ5Rw==/com.example.test-IDcQC9ckNSUSTMS6X974zw==/base.apk!classes2.dex*906315234:/data/app/~~qcd1JQQW1Qzwv5l_hOJ5Rw==/com.example.test-IDcQC9ckNSUSTMS6X974zw==/base.apk!classes3.dex*1610110779:/data/app/~~qcd1JQQW1Qzwv5l_hOJ5Rw==/com.example.test-IDcQC9ckNSUSTMS6X974zw==/base.apk!classes4.dex*751498181:/data/app/~~qcd1JQQW1Qzwv5l_hOJ5Rw==/com.example.test-IDcQC9ckNSUSTMS6X974zw==/base.apk!classes5.dex*1250849136:/data/app/~~qcd1JQQW1Qzwv5l_hOJ5Rw==/com.example.test-IDcQC9ckNSUSTMS6X974zw==/base.apk!classes6.dex*3840010509:/data/app/~~EHvjL75SPrmlp0DaBFja1A==/com.example-qetVt8v6Ik-9NGp67zhHbg==/base.apk*3134142535:/data/app/~~EHvjL75SPrmlp0DaBFja1A==/com.example-qetVt8v6Ik-9NGp67zhHbg==/base.apk!classes2.dex*1258719502:/data/app/~~EHvjL75SPrmlp0DaBFja1A==/com.example-qetVt8v6Ik-9NGp67zhHbg==/base.apk!classes3.dex*4051016188])
+03-27 15:45:13.337 11419-18112/? I/ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+03-27 15:45:13.495 18084-18084/? D/NetworkSecurityConfig: No Network Security Config specified, using platform default
+03-27 15:45:13.496 18084-18084/? D/NetworkSecurityConfig: No Network Security Config specified, using platform default
+03-27 15:45:13.496 18084-18084/? I/MonitoringInstr: newApplication called!
+03-27 15:45:13.502 18084-18084/? I/MonitoringInstr: Instrumentation started!
+03-27 15:45:13.539 18084-18084/? I/AndroidJUnitRunner: onCreate Bundle[{class=com.example.NamedParameterizedTest#test}]
+03-27 15:45:13.540 18084-18084/? V/TestEventClient: No service name argument was given (testDiscoveryService, testRunEventService or orchestratorService)
+03-27 15:45:13.541 18084-18115/? D/AndroidJUnitRunner: onStart is called.
+03-27 15:45:13.550 18084-18115/? D/TestRequestBuilder: Skipping class path scanning and directly running [com.example.NamedParameterizedTest]
+03-27 15:45:13.574 18084-18115/? D/AndroidJUnitRunner: Use the raw file system for managing file I/O.
+03-27 15:45:13.576 18084-18115/? D/TestExecutor: Adding listener androidx.test.internal.runner.listener.LogRunListener
+03-27 15:45:13.576 18084-18115/? D/TestExecutor: Adding listener androidx.test.internal.runner.listener.InstrumentationResultPrinter
+03-27 15:45:13.576 18084-18115/? D/TestExecutor: Adding listener androidx.test.internal.runner.listener.ActivityFinisherRunListener
+03-27 15:45:13.576 18084-18115/? D/TestExecutor: Adding listener androidx.test.internal.runner.listener.T
+03-27 15:45:13.576 18084-18115/? D/TestExecutor: raceRunListener
+03-27 15:45:13.578 18084-18115/? I/TestRunner: run started: 1 tests
+03-27 15:45:13.578 18084-18115/? I/TestRunner: run finished: 0 tests, 0 failed, 0 ignored
+03-27 15:45:13.580 540-3714/? I/ActivityManager: Force stopping com.example appid=10171 user=0: finished inst
+03-27 15:45:13.581 540-3714/? I/ActivityManager: Killing 18084:com.example/u0a171 (adj 0): stop com.example due to finished inst
+03-27 15:45:13.584 18060-18060/? I/app_process: System.exit called, status: 0
+03-27 15:45:13.584 18060-18060/? I/AndroidRuntime: VM exiting with result code 0.

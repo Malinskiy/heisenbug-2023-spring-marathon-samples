@@ -1,0 +1,96 @@
+➜ marathon
+15:45:00.942 [main] INFO  c.m.marathon.cli.ApplicationView - Starting marathon v0.8.1, CliConfiguration: MarathonRunCommandCliConfiguration(marathonfile=Marathonfile, analyticsTracking=false, bugsnagReporting=true)
+15:45:01.053 [main] INFO  c.m.m.e.BugsnagExceptionsReporter - Init BugSnag
+15:45:01.054 [main] INFO  c.m.marathon.cli.ApplicationView - Checking Marathonfile config
+D 15:45:02.049 [main @coroutine#2] <AdamDeviceProvider> Android Debug Bridge /127.0.0.1:5037: version 41
+D 15:45:02.084 [DeviceMonitor @coroutine#7] <AdamDeviceProvider> Device emulator-5554 changed state to CONNECTED
+D 15:45:02.084 [DeviceMonitor @coroutine#7] <AdamDeviceProvider> Device emulator-5556 changed state to CONNECTED
+00% | [omni]-[127.0.0.1:5037:emulator-5554] com.example.AdbActivityTest#testUnsafeAccess failed
+03% | [omni]-[127.0.0.1:5037:emulator-5556] com.example.ScreenshotTest#testScreencapture passed
+05% | [omni]-[127.0.0.1:5037:emulator-5554] com.example.ParameterizedTest#test passed
+08% | [omni]-[127.0.0.1:5037:emulator-5556] com.example.NamedParameterizedTest#test incomplete
+08% | [omni]-[127.0.0.1:5037:emulator-5554] com.example.MainActivityTest#testText9 passed
+10% | [omni]-[127.0.0.1:5037:emulator-5556] com.example.MainActivityTest#testText8 passed
+13% | [omni]-[127.0.0.1:5037:emulator-5554] com.example.NamedParameterizedTest#test incomplete
+13% | [omni]-[127.0.0.1:5037:emulator-5554] com.example.MainActivityTest#testText6 passed
+15% | [omni]-[127.0.0.1:5037:emulator-5556] com.example.MainActivityTest#testText7 passed
+18% | [omni]-[127.0.0.1:5037:emulator-5554] com.example.MainActivityTest#testText5 passed
+20% | [omni]-[127.0.0.1:5037:emulator-5556] com.example.MainActivityTest#testText4 passed
+23% | [omni]-[127.0.0.1:5037:emulator-5554] com.example.MainActivityTest#testText3 passed
+25% | [omni]-[127.0.0.1:5037:emulator-5554] com.example.MainActivityTest#testText1 passed
+28% | [omni]-[127.0.0.1:5037:emulator-5554] com.example.MainActivityTest#testText passed
+30% | [omni]-[127.0.0.1:5037:emulator-5556] com.example.MainActivityTest#testText2 passed
+33% | [omni]-[127.0.0.1:5037:emulator-5554] com.example.MainActivitySlowTest#testTextSlow4 passed
+35% | [omni]-[127.0.0.1:5037:emulator-5556] com.example.MainActivitySlowTest#testTextSlow3 passed
+38% | [omni]-[127.0.0.1:5037:emulator-5554] com.example.MainActivitySlowTest#testTextSlow2 passed
+40% | [omni]-[127.0.0.1:5037:emulator-5556] com.example.MainActivitySlowTest#testTextSlow1 passed
+43% | [omni]-[127.0.0.1:5037:emulator-5556] com.example.MainActivityFlakyTest#testTextFlaky8 passed
+45% | [omni]-[127.0.0.1:5037:emulator-5554] com.example.MainActivitySlowTest#testTextSlow passed
+48% | [omni]-[127.0.0.1:5037:emulator-5556] com.example.MainActivityFlakyTest#testTextFlaky7 passed
+50% | [omni]-[127.0.0.1:5037:emulator-5554] com.example.MainActivityFlakyTest#testTextFlaky6 failed
+52% | [omni]-[127.0.0.1:5037:emulator-5554] com.example.MainActivityFlakyTest#testTextFlaky4 passed
+55% | [omni]-[127.0.0.1:5037:emulator-5556] com.example.MainActivityFlakyTest#testTextFlaky5 failed
+58% | [omni]-[127.0.0.1:5037:emulator-5554] com.example.MainActivityFlakyTest#testTextFlaky3 passed
+60% | [omni]-[127.0.0.1:5037:emulator-5556] com.example.MainActivityFlakyTest#testTextFlaky2 passed
+63% | [omni]-[127.0.0.1:5037:emulator-5554] com.example.MainActivityFlakyTest#testTextFlaky1 failed
+65% | [omni]-[127.0.0.1:5037:emulator-5556] com.example.MainActivityFlakyTest#testTextFlaky passed
+68% | [omni]-[127.0.0.1:5037:emulator-5554] com.example.MainActivityAllureTest#testText passed
+70% | [omni]-[127.0.0.1:5037:emulator-5554] com.example.GrpcActivityTest#testVmState failed
+73% | [omni]-[127.0.0.1:5037:emulator-5556] com.example.MainActivityAllureTest#testFailure failed
+75% | [omni]-[127.0.0.1:5037:emulator-5554] com.example.FilePushTest#testExternalFolderPresent failed
+78% | [omni]-[127.0.0.1:5037:emulator-5554] com.example.FailedAssumptionTest#ignoreTest ignored
+80% | [omni]-[127.0.0.1:5037:emulator-5554] com.example.FailedAssumptionTest#failedAssumptionTest ignored
+E 15:46:10.765 [AndroidDevice - execution - 127.0.0.1:5037:emulator-5554-1 @coroutine#983] <c.m.marathon.android.RemoteFileManager> Remote filename length cannot exceed 255 characters and has been trimmed to com.example.EdgeCaseTest-testWithAVeryLongNameThatExceeds255CharactersqwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNMqwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNMqwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDF-bfc9d424-20f2-4b31-80c2-49384f1efc0f.mp4 and can create a conflict. This happened because the combination of test class name and test name is too long.
+83% | [omni]-[127.0.0.1:5037:emulator-5556] com.example.FilePushTest#testExternalFilePresent passed
+85% | [omni]-[127.0.0.1:5037:emulator-5556] com.example.ConsoleActivityTest#testVmState failed
+E 15:46:13.297 [AndroidDevice - execution - 127.0.0.1:5037:emulator-5554-2 @coroutine#983] <c.m.marathon.android.RemoteFileManager> Remote filename length cannot exceed 255 characters and has been trimmed to com.example.EdgeCaseTest-testWithAVeryLongNameThatExceeds255CharactersqwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNMqwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNMqwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDF-bfc9d424-20f2-4b31-80c2-49384f1efc0f.mp4 and can create a conflict. This happened because the combination of test class name and test name is too long.
+88% | [omni]-[127.0.0.1:5037:emulator-5556] com.example.ClassIgnoredTest#testAlwaysIgnored ignored
+E 15:46:13.322 [AndroidDevice - execution - 127.0.0.1:5037:emulator-5554-2 @coroutine#983] <FileManager> File name length cannot exceed 137 characters and has been trimmed to com.example.EdgeCaseTest#testWithAVeryLongNameThatExceeds255Charactersqwertyuiopasdfghjklzxcvbnm-bfc9d424-20f2-4b31-80c2-49384f1efc0f.log and can create a conflict. This happened because the combination of file path, test class name, and test name is too long.
+90% | [omni]-[127.0.0.1:5037:emulator-5554] com.example.EdgeCaseTest#testWithAVeryLongNameThatExceeds255CharactersqwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNMqwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNMqwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNMqwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNMqwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM passed
+93% | [omni]-[127.0.0.1:5037:emulator-5556] com.example.BeforeTestFailureTest#testThatWillNotSeeTheLightOfDay incomplete
+93% | [omni]-[127.0.0.1:5037:emulator-5554] com.example.AdbActivityTest#testVmState failed
+95% | [omni]-[127.0.0.1:5037:emulator-5556] com.example.BeforeTestFailureTest#testThatWillNotSeeTheLightOfDay incomplete
+E 15:46:16.624 [main @coroutine#2] <FileManager> File name length cannot exceed 130 characters and has been trimmed to com.example.EdgeCaseTest#testWithAVeryLongNameThatExceeds255CharactersqwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNMqwe.json and can create a conflict. This happened because the combination of file path, test class name, and test name is too long.
+Allure environment data saved.
+E 15:46:16.886 [main @coroutine#2] <FileManager> File name length cannot exceed 131 characters and has been trimmed to com.example.EdgeCaseTest#testWithAVeryLongNameThatExceeds255Charactersqwertyuiopasdfghjklz-bfc9d424-20f2-4b31-80c2-49384f1efc0f.gif and can create a conflict. This happened because the combination of file path, test class name, and test name is too long.
+E 15:46:16.887 [main @coroutine#2] <FileManager> File name length cannot exceed 136 characters and has been trimmed to com.example.EdgeCaseTest#testWithAVeryLongNameThatExceeds255Charactersqwertyuiopasdfghjklzxcvbn-bfc9d424-20f2-4b31-80c2-49384f1efc0f.mp4 and can create a conflict. This happened because the combination of file path, test class name, and test name is too long.
+E 15:46:16.887 [main @coroutine#2] <FileManager> File name length cannot exceed 137 characters and has been trimmed to com.example.EdgeCaseTest#testWithAVeryLongNameThatExceeds255Charactersqwertyuiopasdfghjklzxcvbnm-bfc9d424-20f2-4b31-80c2-49384f1efc0f.log and can create a conflict. This happened because the combination of file path, test class name, and test name is too long.
+Marathon run finished:
+Device pool omni:
+        26 passed, 11 failed, 3 ignored tests
+        Failed tests:
+                com.example.AdbActivityTest#testUnsafeAccess
+                com.example.AdbActivityTest#testVmState
+                com.example.BeforeTestFailureTest#testThatWillNotSeeTheLightOfDay
+                com.example.ConsoleActivityTest#testVmState
+                com.example.FilePushTest#testExternalFolderPresent
+                com.example.GrpcActivityTest#testVmState
+                com.example.MainActivityAllureTest#testFailure
+                com.example.MainActivityFlakyTest#testTextFlaky1
+                com.example.MainActivityFlakyTest#testTextFlaky5
+                com.example.MainActivityFlakyTest#testTextFlaky6
+                com.example.NamedParameterizedTest#test
+        Flakiness overhead: 2922ms
+        Raw: 26 passed, 11 failed, 3 ignored, 2 incomplete tests
+        Failed tests:
+                com.example.AdbActivityTest#testUnsafeAccess failed 1 time(s)
+                com.example.AdbActivityTest#testVmState failed 1 time(s)
+                com.example.BeforeTestFailureTest#testThatWillNotSeeTheLightOfDay failed 1 time(s)
+                com.example.ConsoleActivityTest#testVmState failed 1 time(s)
+                com.example.FilePushTest#testExternalFolderPresent failed 1 time(s)
+                com.example.GrpcActivityTest#testVmState failed 1 time(s)
+                com.example.MainActivityAllureTest#testFailure failed 1 time(s)
+                com.example.MainActivityFlakyTest#testTextFlaky1 failed 1 time(s)
+                com.example.MainActivityFlakyTest#testTextFlaky5 failed 1 time(s)
+                com.example.MainActivityFlakyTest#testTextFlaky6 failed 1 time(s)
+                com.example.NamedParameterizedTest#test failed 1 time(s)
+        Incomplete tests:
+                com.example.BeforeTestFailureTest#testThatWillNotSeeTheLightOfDay incomplete 1 time(s)
+                com.example.NamedParameterizedTest#test incomplete 1 time(s)
+Total time: 0H 1m 15s
+
+I 15:46:16.927 [main] <c.m.m.e.BugsnagExceptionsReporter> Finish BugSnag
+D 15:46:16.927 [main] <com.bugsnag.Bugsnag> Closing connection to Bugsnag
+Marathon execution failed
+D 15:46:16.930 [Thread-2] <com.bugsnag.Bugsnag> Closing connection to Bugsnag
+

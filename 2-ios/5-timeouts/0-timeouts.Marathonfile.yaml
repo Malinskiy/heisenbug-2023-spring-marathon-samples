@@ -1,0 +1,24 @@
+name: "My application"
+outputDir: "derived-data/Marathon"
+debug: false
+testClassRegexes: ["^((?!Abstract).)*Tests$"]
+vendorConfiguration:
+  type: "iOS"
+  application: "../../dist/my.app"
+  testApplication: "../../dist/my.xctest"
+  # https://docs.marathonlabs.io/ios/configure#timeouts
+  timeoutConfiguration:
+    # ISO_8601 duration
+    shell: PT30S
+    shellIdle: PT30S
+    reachability: PT5S
+    screenshot: PT10S
+    video: PT300S
+    erase: PT30S
+    shutdown: PT30S
+    delete: PT30S
+    create: PT30S
+    boot: PT30S
+    install: PT30S
+    uninstall: PT30S
+    testDestination: PT30S

@@ -1,0 +1,17 @@
+03-27 15:46:02.424 28753-28774/? I/TestRunner: run finished: 0 tests, 1 failed, 0 ignored
+03-27 15:46:02.429 672-1254/? I/ActivityManager: Force stopping com.example appid=10181 user=0: finished inst
+03-27 15:46:02.429 672-1254/? I/ActivityManager: Killing 28753:com.example/u0a181 (adj 0): stop com.example due to finished inst
+03-27 15:46:02.430 28733-28733/? I/app_process: System.exit called, status: 0
+03-27 15:46:02.430 28733-28733/? I/AndroidRuntime: VM exiting with result code 0.
+03-27 15:46:02.447 672-2070/? V/ActivityManager: Got obituary of 28753:com.example
+03-27 15:46:02.447 429-429/? I/Zygote: Process 28753 exited due to signal 9 (Killed)
+03-27 15:29:55.266 0-0/? I/binder: undelivered TRANSACTION_COMPLETE
+03-27 15:29:55.266 0-0/? I/binder: undelivered transaction 919725, process died.
+03-27 15:46:02.451 672-714/? I/libprocessgroup: Successfully killed process cgroup uid 10181 pid 28753 in 21ms
+03-27 15:46:02.461 1876-1995/? W/MediaProvider: isAppCloneUserPair for user 0: false
+03-27 15:46:02.462 1876-1995/? V/MediaProvider: Inserted id:1000000114 less than next row id backup:1000001000.
+03-27 15:46:02.502 1394-19817/? I/NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService started execution. cause:9 exec_start_elapsed_seconds: 4187 [CONTEXT service_id=218 ]
+03-27 15:46:02.506 1394-25328/? I/NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService finished executing. cause:9 result: 1 elapsed_millis: 12 uptime_millis: 12 exec_start_elapsed_seconds: 4187 [CONTEXT service_id=218 ]
+03-27 15:46:02.630 672-2070/? I/ActivityManager: Killing 19238:com.google.android.calendar/u0a128 (adj 975): empty #17
+03-27 15:46:02.637 672-714/? I/libprocessgroup: Successfully killed process cgroup uid 10128 pid 19238 in 5ms
+03-27 15:46:03.114 1876-1994/? I/MediaProvider: Deleted 0 0 0 1 0 0 0 items on external_primary due to com.android.shell

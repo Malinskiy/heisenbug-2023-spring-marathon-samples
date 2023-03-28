@@ -1,0 +1,198 @@
+03-27 15:46:00.890 1394-26677/? I/NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService started execution. cause:9 exec_start_elapsed_seconds: 4185 [CONTEXT service_id=218 ]
+03-27 15:46:00.893 1394-25328/? I/NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService finished executing. cause:9 result: 1 elapsed_millis: 10 uptime_millis: 10 exec_start_elapsed_seconds: 4185 [CONTEXT service_id=218 ]
+03-27 15:46:00.920 1876-2098/? W/MediaProvider: isAppCloneUserPair for user 0: false
+03-27 15:46:00.921 1876-2098/? V/MediaProvider: Inserted id:1000000113 less than next row id backup:1000001000.
+03-27 15:46:00.925 28699-28699/? D/MediaCodecList: codecHandlesFormat: no format, so no extra checks
+03-27 15:46:00.926 28699-28706/? D/CCodec: allocate(c2.android.avc.encoder)
+03-27 15:46:00.927 28699-28706/? I/Codec2Client: Available Codec2 services: "default" "software"
+03-27 15:46:00.928 28699-28706/? I/CCodec: setting up 'default' as default (vendor) store
+03-27 15:46:00.929 578-578/? V/C2Store: in init
+03-27 15:46:00.929 578-578/? V/C2Store: loading dll
+03-27 15:46:00.930 578-578/? I/mediaswcodec: missing struct descriptor #Param::CoreIndex(--004) for field values of struct #Param::CoreIndex(F-12004)
+03-27 15:46:00.930 578-578/? I/mediaswcodec: missing struct descriptor #Param::CoreIndex(--1812) for field values of struct #
+03-27 15:46:00.930 578-578/? I/mediaswcodec: Param::CoreIndex(F-11812)
+03-27 15:46:00.930 578-578/? I/mediaswcodec: missing struct descriptor #Param::CoreIndex(--004) for field values of struct #Param::CoreIndex(F-12004)
+03-27 15:46:00.930 578-578/? I/mediaswcodec: missing struct descriptor #Param::CoreIndex(--1812) for field values of struct #Param::CoreIndex(F-11812)
+03-27 15:46:00.931 28699-28706/? I/CCodec: Created component [c2.android.avc.encoder]
+03-27 15:46:00.932 28699-28706/? D/CCodecConfig: read media type: video/avc
+03-27 15:46:00.933 28699-28706/? D/ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.max-count.values
+03-27 15:46:00.933 28699-28706/? D/ReflectedParamUpdater: extent() != 1 for single value type: output.subscribed-indices.values
+03-27 15:46:00.933 28699-28706/? D/ReflectedParamUpdater: extent() != 1 for single value type: input.buffers.allocator-ids.values
+03-27 15:46:00.933 28699-28706/? D/ReflectedParamUpdater: extent() != 1 for single value type: output.buffers.allocator-ids.values
+03-27 15:46:00.933 28699-28706/? D/ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.allocato
+03-27 15:46:00.933 28699-28706/? D/ReflectedParamUpdater: r-ids.values
+03-27 15:46:00.933 28699-28706/? D/ReflectedParamUpdater: extent() != 1 for single value type: output.buffers.pool-ids.values
+03-27 15:46:00.933 28699-28706/? D/ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.pool-ids.values
+03-27 15:46:00.934 28699-28706/? D/ReflectedParamUpdater: ignored struct field coding.gop.values
+03-27 15:46:00.934 28699-28706/? D/ReflectedParamUpdater: ignored struct field coding.qp.values
+03-27 15:46:00.934 28699-28706/? D/CCodecConfig: ignoring local param raw.color (0xc2001809) as it is already supported
+03-27 15:46:00.935 28699-28706/? I/CCodecConfig: query failed after returning 12 values (BAD_INDEX)
+03-27 15:46:00.935 28699-28706/? D/CCodecConfig: c2 config diff is Dict {
+03-27 15:46:00.935 28699-28706/? D/CCodecConfig:   c2::i32 coded.average-qp.value = 0
+03-27 15:46:00.935 28699-28706/? D/CCodecConfig:   c2::u32 coded.bitrate.value = 64000
+03-27 15:46:00.935 28699-28706/? D/CCodecConfig:   c2::float coded.frame-rate.value = 1
+03-27 15:46:00.935 28699-28706/? D/CCodecConfig:   c2::u32 coded.picture-type.value = 0
+03-27 15:46:00.935 28699-28706/? D/CCodecConfig:   c2::u32 coded.pl.level = 20492
+03-27 15:46:00.935 28699-28706/? D/CCodecConfig:   c2::u32 coded.pl.profile = 20481
+03-27 15:46:00.935 28699-28706/? D/CCodecConfig:   c2::u32 coded.vui.color.matrix = 0
+03-27 15:46:00.935 28699-28706/? D/CCodecConfig:   c2::u32 coded.vui.color.primaries = 0
+03-27 15:46:00.935 28699-28706/? D/CCodecConfig:   c2::u32 coded.vui.color.range = 0
+03-27 15:46:00.935 28699-28706/? D/CCodecConfig:   c2::u32 coded.vui.color.transfer = 0
+03-27 15:46:00.935 28699-28706/? D/CCodecConfig:   c2::u32 coding.intra-refresh.mode = 0
+03-27 15:46:00.935 28699-28706/? D/CCodecConfig:   c2::float coding.intra-refresh.period = 0
+03-27 15:46:00.935 28699-28706/? D/CCodecConfig:   c2::u32 coding.request-sync-frame.value = 0
+03-27 15:46:00.935 28699-28706/? D/CCodecConfig:   c2::i64 coding.sync-frame-interval.value = 1000000
+03-27 15:46:00.935 28699-28706/? D/CCodecConfig:   c2::u32 input.delay.value = 0
+03-27 15:46:00.935 28699-28706/? D/CCodecConfig:   string input.media-type.value = "video/raw"
+03-27 15:46:00.935 28699-28706/? D/CCodecConfig:   string output.media-type.value = "video/avc"
+03-27 15:46:00.935 28699-28706/? D/CCodecConfig:   c2::u32 raw.color.matrix = 0
+03-27 15:46:00.935 28699-28706/? D/CCodecConfig:   c2::u32 raw.color.primaries = 0
+03-27 15:46:00.935 28699-28706/? D/CCodecConfig:   c2::u32 raw.color.range = 0
+03-27 15:46:00.935 28699-28706/? D/CCodecConfig:   c2::u32 raw.color.transfer = 0
+03-27 15:46:00.935 28699-28706/? D/CCodecConfig:   c2::u32 raw.size.height = 16
+03-27 15:46:00.935 28699-28706/? D/CCodecConfig:   c2::u32 raw.size.width = 16
+03-27 15:46:00.935 28699-28706/? D/CCodecConfig: }
+03-27 15:46:00.935 28699-28706/? W/ColorUtils: expected specified color aspects (0:0:0:0)
+03-27 15:46:00.938 28699-28699/? D/CodecSeeding: Seed: codec c2.android.avc.encoder, mediatype video/avc, overrideable 1
+03-27 15:46:00.939 28699-28699/? D/CodecProperties: setTuningValue(vq-target-bpp,0)
+03-27 15:46:00.939 28699-28699/? D/CodecProperties: setTuningValue(vq-target-bpp-1080p,1.90)
+03-27 15:46:00.939 28699-28699/? D/CodecProperties: setTuningValue(vq-target-bpp-720p,2.25)
+03-27 15:46:00.939 28699-28699/? D/CodecProperties: setTuningValue(vq-target-bpp-540p,2.65)
+03-27 15:46:00.939 28699-28699/? D/CodecProperties: setTuningValue(vq-target-bpp-480p,3.00)
+03-27 15:46:00.939 28699-28699/? D/CodecProperties: setTuningValue(vq-target-bpp-320x240,0)
+03-27 15:46:00.939 28699-28699/? D/CodecProperties: setTuningValue(vq-target-qpmax,-1)
+03-27 15:46:00.939 28699-28699/? D/CodecProperties: setTuningValue(vq-target-qpmax-1080p,45)
+03-27 15:46:00.939 28699-28699/? D/CodecProperties: setTuningValue(vq-target-qpmax-720p,43)
+03-27 15:46:00.939 28699-28699/? D/CodecProperties: setTuningValue(vq-target-qpmax-540p,42)
+03-27 15:46:00.939 28699-28699/? D/CodecProperties: setTuningValue(vq-target-qpmax-480p,38)
+03-27 15:46:00.939 28699-28699/? D/CodecProperties: setTuningValue(vq-bitrate-phaseout,1.75)
+03-27 15:46:00.939 28699-28699/? D/CodecProperties: setTuningValue(vq-boost-missing-qp,0.20)
+03-27 15:46:00.939 28699-28699/? D/CodecProperties: setFeatureValue(intra-refresh,0)
+03-27 15:46:00.939 28699-28699/? D/CodecProperties: setFeatureValue(qp-bounds,0)
+03-27 15:46:00.939 28699-28699/? D/CodecProperties: setFeatureValue(_vq_eligible.device,1)
+03-27 15:46:00.939 28699-28699/? D/CodecProperties: setFeatureValue(_quality.target,1)
+03-27 15:46:00.939 28699-28699/? D/CodecSeeding: Seed: codec c2.android.avc.encoder, mediatype video/avc, overrideable 0
+03-27 15:46:00.939 28699-28699/? D/VQApply: raise bitrate: configured 1000000 to floor 2073600
+03-27 15:46:00.939 28699-28699/? D/VQApply: minquality by QP: inject video-qp-max=43
+03-27 15:46:00.939 28699-28699/? D/VQApply: minquality/target bitrate raised from 1000000 to 2073600 bps
+03-27 15:46:00.939 28699-28699/? D/MediaCodec: shapeMediaFormat: deltas(6): AMessage(what = 0x00000000) = {
+03-27 15:46:00.939 28699-28699/? D/MediaCodec:     int32_t bitrate = 2073600
+03-27 15:46:00.939 28699-28699/? D/MediaCodec:     int32_t android._encoding-quality-level = 0
+03-27 15:46:00.939 28699-28699/? D/MediaCodec:     int32_t video-qp-max = 43
+03-27 15:46:00.939 28699-28699/? D/MediaCodec:     int32_t video-qp-i-max = 43
+03-27 15:46:00.939 28699-28699/? D/MediaCodec:     int32_t video-qp-p-max = 46
+03-27 15:46:00.939 28699-28699/? D/MediaCodec:     int32_t video-qp-b-max = 49
+03-27 15:46:00.939 28699-28699/? D/MediaCodec:   }
+03-27 15:46:00.939 28699-28706/? D/CCodec: [c2.android.avc.encoder] buffers are bound to CCodec for this session
+03-27 15:46:00.940 28699-28706/? D/CCodecConfig: no c2 equivalents for color-format
+03-27 15:46:00.940 28699-28706/? D/CCodecConfig: no c2 equivalents for max-bframes
+03-27 15:46:00.940 28699-28706/? D/CCodecConfig: no c2 equivalents for video-qp-max
+03-27 15:46:00.940 28699-28706/? D/CCodecConfig: no c2 equivalents for video-qp-i-max
+03-27 15:46:00.940 28699-28706/? D/CCodecConfig: no c2 equivalents for video-qp-p-max
+03-27 15:46:00.940 28699-28706/? D/CCodecConfig: no c2 equivalents for video-qp-b-max
+03-27 15:46:00.940 28699-28706/? D/CCodecConfig: no c2 equivalents for flags
+03-27 15:46:00.940 28699-28706/? D/CCodecConfig: no c2 equivalents for encoder
+03-27 15:46:00.940 28699-28706/? D/CCodecConfig: c2 config diff is   c2::u32 coded.bitrate.value = 2073600
+03-27 15:46:00.940 28699-28706/? D/CCodecConfig:   c2::float coded.frame-rate.value = 60
+03-27 15:46:00.940 28699-28706/? D/CCodecConfig:   c2::i64 coding.sync-frame-interval.value = 10000000
+03-27 15:46:00.940 28699-28706/? D/CCodecConfig:   c2::u32 raw.size.height = 1280
+03-27 15:46:00.940 28699-28706/? D/CCodecConfig:   c2::u32 raw.size.width = 720
+03-27 15:46:00.940 28699-28706/? W/ColorUtils: expected specified color aspects (0:0:0:0)
+03-27 15:46:00.940 28699-28706/? D/CCodec: encoding statistics level = 0
+03-27 15:46:00.941 28699-28706/? D/CCodec: setup formats input: AMessage(what = 0x00000000) = {
+03-27 15:46:00.941 28699-28706/? D/CCodec:   Rect crop(0, 0, 719, 1279)
+03-27 15:46:00.941 28699-28706/? D/CCodec:   int32_t color-standard = 0
+03-27 15:46:00.941 28699-28706/? D/CCodec:   int32_t color-range = 0
+03-27 15:46:00.941 28699-28706/? D/CCodec:   int32_t color-transfer = 0
+03-27 15:46:00.941 28699-28706/? D/CCodec:   int32_t frame-rate = 60
+03-27 15:46:00.941 28699-28706/? D/CCodec:   int32_t height = 1280
+03-27 15:46:00.941 28699-28706/? D/CCodec:   int32_t intra-refresh-period = 0
+03-27 15:46:00.941 28699-28706/? D/CCodec:   string mime = "video/raw"
+03-27 15:46:00.941 28699-28706/? D/CCodec:   int32_t video-qp-average = 0
+03-27 15:46:00.941 28699-28706/? D/CCodec:   int32_t width = 720
+03-27 15:46:00.941 28699-28706/? D/CCodec:   int32_t android._dataspace = 0
+03-27 15:46:00.941 28699-28706/? D/CCodec:   int32_t using-sw-read-often = 1
+03-27 15:46:00.941 28699-28706/? D/CCodec:   int64_t android._C2MemoryUsage = 1
+03-27 15:46:00.941 28699-28706/? D/CCodec:   int32_t color-format = 2130708361
+03-27 15:46:00.941 28699-28706/? D/CCodec:   int32_t android._color-format = 2130708361
+03-27 15:46:00.941 28699-28706/? D/CCodec: }
+03-27 15:46:00.941 28699-28706/? D/CCodec: setup formats output: AMessage(what = 0x00000000) = {
+03-27 15:46:00.941 28699-28706/? D/CCodec:   int32_t bitrate = 2073600
+03-27 15:46:00.941 28699-28706/? D/CCodec:   Rect crop(0, 0, 719, 1279)
+03-27 15:46:00.941 28699-28706/? D/CCodec:   int32_t color-standard = 0
+03-27 15:46:00.941 28699-28706/? D/CCodec:   int32_t color-range = 0
+03-27 15:46:00.941 28699-28706/? D/CCodec:   int32_t color-transfer = 0
+03-27 15:46:00.941 28699-28706/? D/CCodec:   int32_t frame-rate = 60
+03-27 15:46:00.941 28699-28706/? D/CCodec:   int32_t height = 1280
+03-27 15:46:00.941 28699-28706/? D/CCodec:   int32_t intra-refresh-period = 0
+03-27 15:46:00.941 28699-28706/? D/CCodec:   int32_t level = 4096
+03-27 15:46:00.941 28699-28706/? D/CCodec:   int32_t max-bitrate = 2073600
+03-27 15:46:00.941 28699-28706/? D/CCodec:   string mime = "video/avc"
+03-27 15:46:00.941 28699-28706/? D/CCodec:   int32_t profile = 65536
+03-27 15:46:00.941 28699-28706/? D/CCodec:   int32_t video-qp-average = 0
+03-27 15:46:00.941 28699-28706/? D/CCodec:   int32_t width = 720
+03-27 15:46:00.941 28699-28706/? D/CCodec: }
+03-27 15:46:00.941 28699-28706/? I/CCodecConfig: query failed after returning 13 values (BAD_INDEX)
+03-27 15:46:00.941 28699-28706/? D/CCodec: input format changed to AMessage(what = 0x00000000) = {
+03-27 15:46:00.941 28699-28706/? D/CCodec:   Rect crop(0, 0, 719, 1279)
+03-27 15:46:00.941 28699-28706/? D/CCodec:   int32_t color-standard = 1
+03-27 15:46:00.941 28699-28706/? D/CCodec:   int32_t color-range = 2
+03-27 15:46:00.941 28699-28706/? D/CCodec:   int32_t color-transfer = 3
+03-27 15:46:00.941 28699-28706/? D/CCodec:   int32_t frame-rate = 60
+03-27 15:46:00.941 28699-28706/? D/CCodec:   int32_t height = 1280
+03-27 15:46:00.941 28699-28706/? D/CCodec:   int32_t intra-refresh-period = 0
+03-27 15:46:00.941 28699-28706/? D/CCodec:   string mime = "video/raw"
+03-27 15:46:00.941 28699-28706/? D/CCodec:   int32_t video-qp-average = 0
+03-27 15:46:00.941 28699-28706/? D/CCodec:   int32_t width = 720
+03-27 15:46:00.941 28699-28706/? D/CCodec:   int32_t android._dataspace = 260
+03-27 15:46:00.941 28699-28706/? D/CCodec:   int32_t using-sw-read-often = 1
+03-27 15:46:00.941 28699-28706/? D/CCodec:   int64_t android._C2MemoryUsage = 1
+03-27 15:46:00.941 28699-28706/? D/CCodec:   int32_t color-format = 2130708361
+03-27 15:46:00.941 28699-28706/? D/CCodec:   int32_t android._color-format = 2130708361
+03-27 15:46:00.941 28699-28706/? D/CCodec: }
+03-27 15:46:00.941 28699-28706/? D/GraphicBufferSource: setting dataspace: 0x104, acquired=0
+03-27 15:46:00.942 28699-28706/? D/CCodec: ISConfig not changed
+03-27 15:46:00.942 28699-28706/? W/Codec2Client: query -- param skipped: index = 1342179345.
+03-27 15:46:00.942 28699-28706/? W/Codec2Client: query -- param skipped: index = 2415921170.
+03-27 15:46:00.943 28699-28706/? D/CCodecBufferChannel: [c2.android.avc.encoder#446] Using basic input block pool with poolID 1 => got 1 - OK (0)
+03-27 15:46:00.944 28699-28706/? D/C2Store: Using DMABUF Heaps
+03-27 15:46:00.945 1394-26677/? I/NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService started execution. cause:9 exec_start_elapsed_seconds: 4185 [CONTEXT service_id=218 ]
+03-27 15:46:00.946 28699-28706/? I/CCodecBufferChannel: [c2.android.avc.encoder#446] Created output block pool with allocatorID 16 => poolID 94 - OK
+03-27 15:46:00.946 28699-28706/? D/CCodecBufferChannel: [c2.android.avc.encoder#446] Configured output block pool ids 94 => OK
+03-27 15:46:00.946 570-598/? W/ResourceManagerService: Ignoring request to add new resource entry with value <= 0
+03-27 15:46:00.950 1394-19817/? I/NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService finished executing. cause:9 result: 1 elapsed_millis: 12 uptime_millis: 12 exec_start_elapsed_seconds: 4185 [CONTEXT service_id=218 ]
+03-27 15:46:00.965 279-279/? I/hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+03-27 15:46:00.965 28699-28715/? I/Gralloc4: mapper 4.x is not supported
+03-27 15:46:00.966 1876-1994/? I/MediaProvider: Deleted 0 0 0 1 0 0 0 items on external_primary due to com.android.shell
+03-27 15:46:00.968 1876-1994/? W/MediaProvider: isAppCloneUserPair for user 0: false
+03-27 15:46:00.969 1876-1994/? V/MediaProvider: Inserted id:1000000113 less than next row id backup:1000001000.
+03-27 15:46:00.970 28699-28699/? D/MPEG4Writer: PreAllocation enabled
+03-27 15:46:00.971 28699-28699/? E/MediaMuxer: stop() is called in invalid state 1
+03-27 15:46:00.971 28699-28706/? I/hw-BpHwBinder: onLastStrongRef automatically unlinking death recipients
+03-27 15:46:00.971 578-1078/? I/hw-BpHwBinder: onLastStrongRef automatically unlinking death recipients
+03-27 15:46:00.971 578-578/? D/BufferPoolAccessor2.0: Destruction - bufferpool2 0x753898b017e8 cached: 0/0M, 0/0% in use; allocs: 0, 0% recycled; transfers: 0, 0% unfetched
+03-27 15:46:00.971 578-1078/? V/C2Store: in ~ComponentModule
+03-27 15:46:00.971 578-1078/? V/C2Store: unloading dll
+03-27 15:46:00.972 28699-28699/? D/ScreenRecord: failed
+03-27 15:46:00.973 28699-28699/? I/BpBinder: onLastStrongRef automatically unlinking death recipients: <uncached descriptor>
+03-27 15:46:00.976 28699-28715/? D/HostConnection: createUnique: call
+03-27 15:46:00.976 28699-28699/? I/BpBinder: onLastStrongRef automatically unlinking death recipients: <uncached descriptor>
+03-27 15:46:00.976 28699-28715/? D/HostConnection: HostConnection::get() New Host Connection established 0x768e9e18c090, tid 28715
+03-27 15:46:00.977 28699-28715/? D/goldfish-address-space: allocate: Ask for block of size 0x100
+03-27 15:46:00.977 28699-28715/? D/goldfish-address-space: allocate: ioctl allocate returned offset 0x3e7ffe000 size 0x2000
+03-27 15:46:00.995 279-279/? I/hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.allocator@4.0::IAllocator/default in either framework or device VINTF manifest.
+03-27 15:46:00.995 278-278/? I/servicemanager: Could not find android.hardware.graphics.allocator.IAllocator/default in the VINTF manifest.
+03-27 15:46:00.995 28699-28715/? W/Gralloc4: allocator 4.x i
+03-27 15:46:00.995 28699-28715/? W/Gralloc4: s not supported
+03-27 15:46:00.997 450-484/? D/goldfish-address-space: claimShared: Ask to claim region [0x3e9cf4000 0x3ea078000]
+03-27 15:46:01.008 482-482/? E/CompositionEngine: ANativeWindow::dequeueBuffer failed for display [ScreenRecorder] with error: -32
+03-27 15:46:01.008 482-482/? W/CompositionEngine: Dequeuing buffer for display [ScreenRecorder] failed, bailing out of client composition for this frame
+03-27 15:29:53.826 0-0/? I/binder: undelivered TRANSACTION_COMPLETE
+03-27 15:29:53.827 0-0/? I/binder: undelivered transaction 919087, process died.
+03-27 15:29:53.827 0-0/? I/binder: release 28699:28715 transaction 919008 in, still active
+03-27 15:29:53.828 0-0/? I/binder: send failed reply for transaction 919008 to 482:482
+03-27 15:46:01.247 1394-26677/? I/NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService started execution. cause:9 exec_start_elapsed_seconds: 4186 [CONTEXT service_id=218 ]
+03-27 15:46:01.293 1394-14480/? I/NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService finished executing. cause:9 result: 1 elapsed_millis: 82 uptime_millis: 82 exec_start_elapsed_seconds: 4186 [CONTEXT service_id=218 ]
+03-27 15:46:01.546 19748-19748/? I/ProvidersCache: Updating roots due to change on user 0at content://com.android.providers.media.documents/root
+03-27 15:46:01.568 19748-28725/? I/ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+03-27 15:46:01.685 1876-1995/? I/MediaProvider: Deleted 0 0 0 1 0 0 0 items on external_primary due to com.android.shell

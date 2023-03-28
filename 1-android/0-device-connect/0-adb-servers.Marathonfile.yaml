@@ -1,0 +1,11 @@
+name: "My awesome tests"
+outputDir: "marathon"
+debug: false
+vendorConfiguration:
+  type: "Android"
+  applicationApk: "../../dist/app-debug.apk"
+  testApplicationApk: "../../dist/app-debug-androidTest.apk"
+  adbServers:
+    - host: 127.0.0.1
+    - host: 10.0.0.2
+      port: 5037

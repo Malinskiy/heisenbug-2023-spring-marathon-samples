@@ -1,0 +1,8 @@
+name: "My awesome tests"
+outputDir: "marathon"
+debug: false
+vendorConfiguration:
+  type: "Android"
+  # MARATHON_APK_NAME=app-debug marathon -m 0-common/5-beyond-a-single-test-run/0-dynamic-envvar.Marathonfile.yaml
+  applicationApk: "../../dist/${MARATHON_APK_NAME}.apk"
+  testApplicationApk: "../../dist/app-debug-androidTest.apk"

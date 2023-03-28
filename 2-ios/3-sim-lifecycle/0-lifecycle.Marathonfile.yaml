@@ -1,0 +1,16 @@
+name: "My application"
+outputDir: "derived-data/Marathon"
+debug: false
+testClassRegexes: ["^((?!Abstract).)*Tests$"]
+vendorConfiguration:
+  type: "iOS"
+  application: "../../dist/my.app"
+  testApplication: "../../dist/my.xctest"
+  # https://docs.marathonlabs.io/ios/configure#test-run-lifecycle
+  lifecycle:
+    shutdownUnused: false
+    onPrepare:
+      - ERASE
+    onDispose:
+      - TERMINATE
+      - SHUTDOWN

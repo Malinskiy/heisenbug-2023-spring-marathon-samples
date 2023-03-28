@@ -1,0 +1,10 @@
+name: "My awesome tests"
+outputDir: "marathon"
+debug: false
+vendorConfiguration:
+  type: "Android"
+  applicationApk: "../../dist/app-debug.apk"
+  testApplicationApk: "runtime-generated-androidTest.apk"
+  # https://docs.marathonlabs.io/android/configure#test-parser
+  testParserConfiguration:
+    type: "local"

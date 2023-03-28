@@ -1,0 +1,19 @@
+name: "My awesome tests"
+outputDir: "marathon"
+debug: false
+vendorConfiguration:
+  type: "Android"
+  applicationApk: "../../dist/app-debug.apk"
+  testApplicationApk: "../../dist/app-debug-androidTest.apk"
+  # https://docs.marathonlabs.io/android/configure#timeout-configuration
+  timeoutConfiguration:
+    # ISO_8601 duration
+    shell: "PT30S"
+    listFiles: "PT1M"
+    pushFile: "PT1H"
+    pushFolder: "PT1H"
+    pullFile: "P1D"
+    uninstall: "PT1S"
+    install: "P1DT12H30M5S"
+    screenrecorder: "PT1H"
+    screencapturer: "PT1S"

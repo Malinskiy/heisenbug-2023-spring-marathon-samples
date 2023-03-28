@@ -1,0 +1,21 @@
+03-27 15:45:05.363 17744-17764/? I/TestRunner: finished: test[0](com.example.ParameterizedTest)
+03-27 15:45:05.365 17744-17764/? I/TestRunner: started: test[1](com.example.ParameterizedTest)
+03-27 15:45:05.366 17744-17764/? I/TestRunner: finished: test[1](com.example.ParameterizedTest)
+03-27 15:45:05.367 17744-17764/? I/TestRunner: started: test[2](com.example.ParameterizedTest)
+03-27 15:45:05.368 17744-17764/? I/TestRunner: finished: test[2](com.example.ParameterizedTest)
+03-27 15:45:05.369 17744-17764/? I/TestRunner: started: test[3](com.example.ParameterizedTest)
+03-27 15:45:05.371 17744-17764/? I/TestRunner: finished: test[3](com.example.ParameterizedTest)
+03-27 15:45:05.372 17744-17764/? I/TestRunner: started: test[4](com.example.ParameterizedTest)
+03-27 15:45:05.374 17744-17764/? I/TestRunner: finished: test[4](com.example.ParameterizedTest)
+03-27 15:45:05.375 17744-17764/? I/TestRunner: started: test[5](com.example.ParameterizedTest)
+03-27 15:45:05.377 17744-17764/? I/TestRunner: finished: test[5](com.example.ParameterizedTest)
+03-27 15:45:05.378 17744-17764/? I/TestRunner: started: test[6](com.example.ParameterizedTest)
+03-27 15:45:05.379 17744-17764/? I/TestRunner: finished: test[6](com.example.ParameterizedTest)
+03-27 15:45:05.381 17744-17764/? I/TestRunner: run finished: 7 tests, 0 failed, 0 ignored
+03-27 15:45:05.384 540-600/? I/ActivityManager: Force stopping com.example appid=10171 user=0: finished inst
+03-27 15:45:05.386 540-600/? I/ActivityManager: Killing 17744:com.example/u0a171 (adj 0): stop com.example due to finished inst
+03-27 15:45:05.388 17722-17722/? I/app_process: System.exit called, status: 0
+03-27 15:45:05.388 17722-17722/? I/AndroidRuntime: VM exiting with result code 0.
+03-27 15:45:05.411 540-600/? V/ActivityManager: Got obituary of 17744:com.example
+03-27 15:45:05.411 334-334/? I/Zygote: Process 17744 exited due to signal 9 (Killed)
+03-27 15:45:05.432 540-570/? I/libprocessgroup: Successfully killed process cgroup uid 10171 pid 17744 in 45ms

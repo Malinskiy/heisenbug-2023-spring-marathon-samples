@@ -1,0 +1,5 @@
+03-27 15:45:08.182 1303-11884/? W/MediaProvider: isAppCloneUserPair for user 0: false
+03-27 15:45:08.201 6721-17547/? I/NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService started execution. cause:9 exec_start_elapsed_seconds: 2659 [CONTEXT service_id=218 ]
+03-27 15:45:08.204 6721-11478/? I/NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService finished executing. cause:9 result: 1 elapsed_millis: 7 uptime_millis: 7 exec_start_elapsed_seconds: 2659 [CONTEXT service_id=218 ]
+03-27 15:45:08.238 458-768/? D/BufferPoolAccessor2.0: evictor expired: 1, evicted: 0
+03-27 15:45:08.845 1303-11884/? I/MediaProvider: Deleted 0 0 0 1 0 0 0 items on external_primary due to com.android.shell

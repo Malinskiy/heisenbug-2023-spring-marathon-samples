@@ -1,0 +1,17 @@
+name: "My awesome tests"
+outputDir: "marathon"
+debug: false
+# https://docs.marathonlabs.io/configuration/filtering#filtering-logic
+filteringConfiguration:
+  allowlist:
+    - type: "annotation"
+      values:
+        - "com.example.LocalEmulatorTest"
+  blocklist:
+    - type: "method"
+      values:
+        - "testVmState"
+vendorConfiguration:
+  type: "Android"
+  applicationApk: "../../dist/app-debug.apk"
+  testApplicationApk: "../../dist/app-debug-androidTest.apk"

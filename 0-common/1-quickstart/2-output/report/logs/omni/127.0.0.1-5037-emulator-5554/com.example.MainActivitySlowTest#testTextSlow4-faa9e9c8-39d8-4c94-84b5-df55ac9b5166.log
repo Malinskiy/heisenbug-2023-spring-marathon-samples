@@ -1,0 +1,432 @@
+03-27 15:45:27.353 11419-19075/? I/ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+03-27 15:45:27.393 1303-11884/? W/MediaProvider: isAppCloneUserPair for user 0: false
+03-27 15:45:27.397 408-434/? E/HWComposer: getSupportedContentTypes: getSupportedContentTypes failed for display 4619827259835644672: Unsupported (8)
+03-27 15:45:27.399 19071-19071/? D/MediaCodecList: codecHandlesFormat: no format, so no extra checks
+03-27 15:45:27.400 19071-19082/? D/CCodec: allocate(c2.android.avc.encoder)
+03-27 15:45:27.402 19071-19082/? I/Codec2Client: Available Codec2 services: "default" "software"
+03-27 15:45:27.404 19071-19082/? I/CCodec: setting up 'default' as default (vendor) store
+03-27 15:45:27.407 458-6072/? V/C2Store: in init
+03-27 15:45:27.407 458-6072/? V/C2Store: loading dll
+03-27 15:45:27.408 458-6072/? I/mediaswcodec: missing struct descriptor #Param::CoreIndex(--004) for field values of struct #Param::CoreIndex(F-12004)
+03-27 15:45:27.408 458-6072/? I/mediaswcodec: missing struct descriptor #Param::CoreIndex(--1812) for field values of struct #Param::CoreIndex(F-11812)
+03-27 15:45:27.409 458-6072/? I/mediaswcodec: missing struct descriptor #Param::CoreIndex(--004) for field values of struct #Param::CoreIndex(F-12004)
+03-27 15:45:27.409 458-6072/? I/mediaswcodec: missing struct descri
+03-27 15:45:27.409 458-6072/? I/mediaswcodec: ptor #Param::CoreIndex(--1812) for field values of struct #Param::CoreIndex(F-11812)
+03-27 15:45:27.410 19071-19082/? I/CCodec: Created component [c2.android.avc.encoder]
+03-27 15:45:27.411 19071-19082/? D/CCodecConfig: read media type: video/avc
+03-27 15:45:27.412 19071-19082/? D/ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.max-count.values
+03-27 15:45:27.413 19071-19082/? D/ReflectedParamUpdater: extent() != 1 for single value type: output.subscribed-indices.values
+03-27 15:45:27.413 19071-19082/? D/ReflectedParamUpdater: extent() != 1 for single value type: input.buffers.allocator-ids.values
+03-27 15:45:27.413 19071-19082/? D/ReflectedParamUpdater: extent() != 1 for single value type: output.buffers.allocator-ids.values
+03-27 15:45:27.413 19071-19082/? D/ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.allocator-ids.values
+03-27 15:45:27.413 19071-19082/? D/ReflectedParamUpdater: extent() != 1 for single value type: output.buffers.pool-ids.values
+03-27 15:45:27.413 19071-19082/? D/ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.pool-ids.values
+03-27 15:45:27.414 19071-19082/? D/ReflectedParamUpdater: ignored struct field coding.gop.values
+03-27 15:45:27.415 19071-19082/? D/ReflectedParamUpdater: ignored struct field coding.qp.values
+03-27 15:45:27.415 19071-19082/? D/CCodecConfig: ignoring local param raw.color (0xc2001809) as it is already supported
+03-27 15:45:27.416 19071-19082/? I/CCodecConfig: query failed after returning 12 values (BAD_INDEX)
+03-27 15:45:27.416 19071-19082/? D/CCodecConfig: c2 config diff is Dict {
+03-27 15:45:27.416 19071-19082/? D/CCodecConfig:   c2::u32 coded.bitrate.value = 64000
+03-27 15:45:27.416 19071-19082/? D/CCodecConfig:   c2::float coded.frame-rate.value = 1
+03-27 15:45:27.416 19071-19082/? D/CCodecConfig:   c2::u32 coded.pl.level = 20492
+03-27 15:45:27.416 19071-19082/? D/CCodecConfig:   c2::u32 coded.pl.profile = 20481
+03-27 15:45:27.416 19071-19082/? D/CCodecConfig:   c2::u32 coded.vui.color.matrix = 0
+03-27 15:45:27.416 19071-19082/? D/CCodecConfig:   c2::u32 coded.vui.color.primaries = 0
+03-27 15:45:27.416 19071-19082/? D/CCodecConfig:   c2::u32 coded.vui.color.range = 0
+03-27 15:45:27.416 19071-19082/? D/CCodecConfig:   c2::u32 cod
+03-27 15:45:27.416 19071-19082/? D/CCodecConfig: ed.vui.color.transfer = 0
+03-27 15:45:27.416 19071-19082/? D/CCodecConfig:   c2::u32 coding.intra-refresh.mode = 0
+03-27 15:45:27.416 19071-19082/? D/CCodecConfig:   c2::float coding.intra-refresh.period = 0
+03-27 15:45:27.416 19071-19082/? D/CCodecConfig:   c2::u32 coding.request-sync-frame.value = 0
+03-27 15:45:27.416 19071-19082/? D/CCodecConfig:   c2::i64 coding.sync-frame-interval.value = 1000000
+03-27 15:45:27.416 19071-19082/? D/CCodecConfig:   c2::u32 input.delay.value = 0
+03-27 15:45:27.416 19071-19082/? D/CCodecConfig:   string input.media-type.value = "video/raw"
+03-27 15:45:27.416 19071-19082/? D/CCodecConfig:   string output.media-type.value = "video/avc"
+03-27 15:45:27.416 19071-19082/? D/CCodecConfig:   c2::u32 raw.color.matrix = 0
+03-27 15:45:27.416 19071-19082/? D/CCodecConfig:   c2::u32 raw.color.primaries = 0
+03-27 15:45:27.416 19071-19082/? D/CCodecConfig:   c2::u32 raw.color.range = 0
+03-27 15:45:27.416 19071-19082/? D/CCodecConfig:   c2::u32 raw.color.transfer = 0
+03-27 15:45:27.416 19071-19082/? D/CCodecConfig:   c2::u32 raw.size.height = 16
+03-27 15:45:27.416 19071-19082/? D/CCodecConfig:   c2::u32 raw.size.width = 16
+03-27 15:45:27.416 19071-19082/? D/CCodecConfig: }
+03-27 15:45:27.416 19071-19082/? W/ColorUtils: expected specified color aspects (0:0:0:0)
+03-27 15:45:27.439 19071-19071/? D/CodecSeeding: Seed: codec c2.android.avc.encoder, mediatype video/avc, overrideable 1
+03-27 15:45:27.439 19071-19071/? D/CodecProperties: setTuningValue(vq-target-bpp,0)
+03-27 15:45:27.439 19071-19071/? D/CodecProperties: setTuningValue(vq-target-bpp-1080p,1.90)
+03-27 15:45:27.439 19071-19071/? D/CodecProperties: setTuningValue(vq-target-bpp-720p,2.25)
+03-27 15:45:27.439 19071-19071/? D/CodecProperties: setTuningValue(vq-target-bpp-540p,2.65)
+03-27 15:45:27.439 19071-19071/? D/CodecProperties: setTuningValue(vq-target-bpp-480p,3.00)
+03-27 15:45:27.439 19071-19071/? D/CodecProperties: setTuningValue(vq-target-bpp-320x240,0)
+03-27 15:45:27.439 19071-19071/? D/CodecProperties: setTuningValue(vq-target-qpmax,-1)
+03-27 15:45:27.439 19071-19071/? D/CodecProperties: setTuningValue(vq-target-qpmax-1080p,45)
+03-27 15:45:27.439 19071-19071/? D/CodecProperties: setTuningValue(vq-target-qpmax-720p,43)
+03-27 15:45:27.439 19071-19071/? D/CodecProperties: setTuningValue(vq-target-qpmax-540p,42)
+03-27 15:45:27.439 19071-19071/? D/CodecProperties: setTuningValue(vq-target-qpmax-480p,38)
+03-27 15:45:27.439 19071-19071/? D/CodecProperties: setTuningValue(vq-bitrate-phaseout,1.75)
+03-27 15:45:27.439 19071-19071/? D/CodecProperties: setTuningValue(vq-boost-missing-qp,0.20)
+03-27 15:45:27.439 19071-19071/? D/CodecProperties: setFeatureValue(intra-refresh,0)
+03-27 15:45:27.439 19071-19071/? D/CodecProperties: setFeatureValue(qp-bounds,0)
+03-27 15:45:27.439 19071-19071/? D/CodecProperties: setFeatureValue(_vq_eligible.device,1)
+03-27 15:45:27.439 19071-19071/? D/CodecProperties: setFeatureValue(_quality.target,1)
+03-27 15:45:27.439 19071-19071/? D/CodecSeeding: Seed: codec c2.android.avc.encoder, mediatype video/avc, overrideable 0
+03-27 15:45:27.439 19071-19071/? D/VQApply: raise bitrate: configured 1000000 to floor 2073600
+03-27 15:45:27.439 19071-19071/? D/VQApply: minquality by QP: inject video-qp-max=43
+03-27 15:45:27.439 19071-19071/? D/VQApply: minquality/target bitrate raised from 1000000 to 2073600 bps
+03-27 15:45:27.439 19071-19071/? D/MediaCodec: shapeMediaFormat: deltas(6): AMessage(what = 0x00000000) = {
+03-27 15:45:27.439 19071-19071/? D/MediaCodec:     int32_t bitrate = 2073600
+03-27 15:45:27.439 19071-19071/? D/MediaCodec:     int32_t android._encoding-quality-level = 0
+03-27 15:45:27.439 19071-19071/? D/MediaCodec:     int32_t video-qp-max = 43
+03-27 15:45:27.439 19071-19071/? D/MediaCodec:     int32_t video-qp-i-max = 43
+03-27 15:45:27.439 19071-19071/? D/MediaCodec:     int32_t video-qp-p-max = 46
+03-27 15:45:27.439 19071-19071/? D/MediaCodec:     int32_t video-qp-b-max = 49
+03-27 15:45:27.439 19071-19071/? D/MediaCodec:   }
+03-27 15:45:27.440 19071-19082/? D/CCodec: [c2.android.avc.encoder] buffers are bound to CCodec for this session
+03-27 15:45:27.440 19071-19082/? D/CCodecConfig: no c2 equivalents for color-format
+03-27 15:45:27.440 19071-19082/? D/CCodecConfig: no c2 equivalents for max-bframes
+03-27 15:45:27.440 19071-19082/? D/CCodecConfig: no c2 equivalents for video-qp-max
+03-27 15:45:27.440 19071-19082/? D/CCodecConfig: no c2 equivalents for video-qp-i-max
+03-27 15:45:27.440 19071-19082/? D/CCodecConfig: no c2 equivalents for video-qp-p-max
+03-27 15:45:27.440 19071-19082/? D/CCodecConfig: no c2 equivalents for video-qp-b-max
+03-27 15:45:27.440 19071-19082/? D/CCodecConfig: no c2 equivalents for flags
+03-27 15:45:27.440 19071-19082/? D/CCodecConfig: no c2 equivalents for encoder
+03-27 15:45:27.442 19071-19082/? D/CCodecConfig: c2 config diff is   c2::u32 coded.bitrate.value = 2073600
+03-27 15:45:27.442 19071-19082/? D/CCodecConfig:   c2::float coded.frame-rate.value = 60
+03-27 15:45:27.442 19071-19082/? D/CCodecConfig:   c2::i64 coding.sync-frame-interval.value = 10000000
+03-27 15:45:27.442 19071-19082/? D/CCodecConfig:   c2::u32 raw.size.height = 1280
+03-27 15:45:27.442 19071-19082/? D/CCodecConfig:   c2::u32 raw.size.width = 720
+03-27 15:45:27.442 19071-19082/? W/ColorUtils: expected specified color aspects (0:0:0:0)
+03-27 15:45:27.442 19071-19082/? D/CCodec: setup formats input: AMessage(what = 0x00000000) = {
+03-27 15:45:27.442 19071-19082/? D/CCodec:   Rect crop(0, 0, 719, 1279)
+03-27 15:45:27.442 19071-19082/? D/CCodec:   int32_t color-standard = 0
+03-27 15:45:27.442 19071-19082/? D/CCodec:   int32_t color-range = 0
+03-27 15:45:27.442 19071-19082/? D/CCodec:   int32_t color-transfer = 0
+03-27 15:45:27.442 19071-19082/? D/CCodec:   int32_t frame-rate = 60
+03-27 15:45:27.442 19071-19082/? D/CCodec:   int32_t height = 1280
+03-27 15:45:27.442 19071-19082/? D/CCodec:   int32_t intra-refresh-period = 0
+03-27 15:45:27.442 19071-19082/? D/CCodec:   string mime = "video/raw"
+03-27 15:45:27.442 19071-19082/? D/CCodec:   int32_t width = 720
+03-27 15:45:27.442 19071-19082/? D/CCodec:   int32_t android._dataspace = 0
+03-27 15:45:27.442 19071-19082/? D/CCodec:   int32_t using-sw-read-often = 1
+03-27 15:45:27.442 19071-19082/? D/CCodec:   int64_t android._C2MemoryUsage = 1
+03-27 15:45:27.442 19071-19082/? D/CCodec:   int32_t color-format = 2130708361
+03-27 15:45:27.442 19071-19082/? D/CCodec:   int32_t android._color-format = 2130708361
+03-27 15:45:27.442 19071-19082/? D/CCodec: }
+03-27 15:45:27.442 19071-19082/? D/CCodec: setup formats output: AMessage(what = 0x00000000) = {
+03-27 15:45:27.442 19071-19082/? D/CCodec:   int32_t bitrate = 2073600
+03-27 15:45:27.442 19071-19082/? D/CCodec:   Rect crop(0, 0, 719, 1279)
+03-27 15:45:27.442 19071-19082/? D/CCodec:   int32_t color-standard = 0
+03-27 15:45:27.442 19071-19082/? D/CCodec:   int32_t color-range = 0
+03-27 15:45:27.442 19071-19082/? D/CCodec:   int32_t color-transfer = 0
+03-27 15:45:27.442 19071-19082/? D/CCodec:   int32_t frame-rate = 60
+03-27 15:45:27.442 19071-19082/? D/CCodec:   int32_t height = 1280
+03-27 15:45:27.442 19071-19082/? D/CCodec:   int32_t intra-refresh-period = 0
+03-27 15:45:27.442 19071-19082/? D/CCodec:   int32_t level = 4096
+03-27 15:45:27.442 19071-19082/? D/CCodec:   int32_t max-bitrate = 2073600
+03-27 15:45:27.442 19071-19082/? D/CCodec:   string mime = "video/avc"
+03-27 15:45:27.442 19071-19082/? D/CCodec:   int32_t profile = 65536
+03-27 15:45:27.442 19071-19082/? D/CCodec:   int32_t width = 720
+03-27 15:45:27.442 19071-19082/? D/CCodec: }
+03-27 15:45:27.443 19071-19082/? I/CCodecConfig: query failed after returning 13 values (BAD_INDEX)
+03-27 15:45:27.443 19071-19082/? D/CCodec: input format changed to AMessage(what = 0x00000000) = {
+03-27 15:45:27.443 19071-19082/? D/CCodec:   Rect crop(0, 0, 719, 1279)
+03-27 15:45:27.443 19071-19082/? D/CCodec:   int32_t color-standard = 1
+03-27 15:45:27.443 19071-19082/? D/CCodec:   int32_t color-range = 2
+03-27 15:45:27.443 19071-19082/? D/CCodec:   int32_t color-transfer = 3
+03-27 15:45:27.443 19071-19082/? D/CCodec:   int32_t frame-rate = 60
+03-27 15:45:27.443 19071-19082/? D/CCodec:   int32_t height = 1280
+03-27 15:45:27.443 19071-19082/? D/CCodec:   int32_t intra-refresh-period = 0
+03-27 15:45:27.443 19071-19082/? D/CCodec:   string mime = "video/raw"
+03-27 15:45:27.443 19071-19082/? D/CCodec:   int32_t width = 720
+03-27 15:45:27.443 19071-19082/? D/CCodec:   int32_t android._dataspace = 260
+03-27 15:45:27.443 19071-19082/? D/CCodec:   int32_t using-sw-read-often = 1
+03-27 15:45:27.443 19071-19082/? D/CCodec:   int64_t android._C2MemoryUsage = 1
+03-27 15:45:27.443 19071-19082/? D/CCodec:   int32_t color-format = 2130708361
+03-27 15:45:27.443 19071-19082/? D/CCodec:   int32_t android._color-format = 2130708361
+03-27 15:45:27.443 19071-19082/? D/CCodec: }
+03-27 15:45:27.444 19071-19082/? D/GraphicBufferSource: setting dataspace: 0x104, acquired=0
+03-27 15:45:27.444 19071-19082/? D/CCodec: ISConfig not changed
+03-27 15:45:27.445 19071-19082/? W/Codec2Client: query -- param skipped: index = 1342179345.
+03-27 15:45:27.445 19071-19082/? W/Codec2Client: query -- param skipped: index = 2415921170.
+03-27 15:45:27.445 19071-19082/? D/CCodecBufferChannel: [c2.android.avc.encoder#812] Using basic input block pool with poolID 1 => got 1 - OK (0)
+03-27 15:45:27.445 19071-19082/? D/C2Store: Using DMABUF Heaps
+03-27 15:45:27.446 19071-19082/? I/CCodecBufferChannel: [c2.android.avc.encoder#812] Created output block pool with allocatorID 16 => poolID 58 - OK
+03-27 15:45:27.446 19071-19082/? D/CCodecBufferChannel: [c2.android.avc.encoder#812] Configured output block pool ids 58 => OK
+03-27 15:45:27.446 451-451/? W/ResourceManagerService: Ignoring request to add new resource entry with value <= 0
+03-27 15:45:27.449 6721-11478/? I/NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService started execution. cause:9 exec_start_elapsed_seconds: 2678 [CONTEXT service_id=218 ]
+03-27 15:45:27.454 6721-6757/? I/NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService finished executing. cause:9 result: 1 elapsed_millis: 36 uptime_millis: 36 exec_start_elapsed_seconds: 2678 [CONTEXT service_id=218 ]
+03-27 15:45:27.458 19040-19065/? W/FileTestStorage: Output properties is not supported.
+03-27 15:45:27.459 19040-19065/? I/Tracing: Tracer added: class androidx.test.platform.tracing.AndroidXTracer
+03-27 15:45:27.466 192-192/? I/hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+03-27 15:45:27.466 19071-19080/? I/Gralloc4: mapper 4.x is not supported
+03-27 15:45:27.470 1303-1551/? I/MediaProvider: Deleted 0 0 0 1 0 0 0 items on external_primary due to com.android.shell
+03-27 15:45:27.476 1303-11884/? W/MediaProvider: isAppCloneUserPair for user 0: false
+03-27 15:45:27.476 19040-19065/? D/EventInjectionStrategy: Creating injection strategy with input manager.
+03-27 15:45:27.477 19040-19065/? W/com.example: Accessing hidden method Landroid/hardware/input/InputManager;->getInstance()Landroid/hardware/input/InputManager; (unsupported, reflection, allowed)
+03-27 15:45:27.478 19040-19065/? W/com.example: Accessing hidden m
+03-27 15:45:27.478 19040-19065/? W/com.example: ethod Landroid/hardware/input/InputManager;->injectInputEvent(Landroid/view/InputEvent;I)Z (unsupported, reflection, allowed)
+03-27 15:45:27.478 19040-19065/? W/com.example: Accessing hidden field Landroid/hardware/input/InputManager;->INJECT_INPUT_EVENT_MODE_WAIT_FOR_FINISH:I (unsupported, reflection, allowed)
+03-27 15:45:27.479 19071-19071/? D/MPEG4Writer: PreAllocation enabled
+03-27 15:45:27.484 19071-19080/? D/HostConnection: createUnique: call
+03-27 15:45:27.484 19071-19080/? D/HostConnection: HostConnection::get() New Host Connection established 0x7eca5a998450, tid 19080
+03-27 15:45:27.485 19071-19080/? D/goldfish-address-space: allocate: Ask for block of size 0x100
+03-27 15:45:27.485 19071-19080/? D/goldfish-address-space: allocate: ioctl allocate returned offset 0x3ebffe000 size 0x2000
+03-27 15:45:27.505 192-192/? I/hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.allocator@4.0::IAllocator/default in either framework or device VINTF manifest.
+03-27 15:45:27.505 19071-19080/? W/Gralloc4: allocator 4.x is not supported
+03-27 15:45:27.507 350-350/? D/goldfish-address-space: claimShared: Ask to claim region [0x3ef034000 0x3ef3b8000]
+03-27 15:45:27.527 19071-19080/? D/HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_native_sync_v3 ANDROID_EMU_native_sync_v4 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU
+03-27 15:45:27.527 19071-19080/? D/HostConnection: _vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_vulkan_queue_submit_with_commands ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+03-27 15:45:27.532 19071-19080/? D/GraphicBufferSource: got buffer with new dataSpace #104
+03-27 15:45:27.532 19071-19080/? D/C2OMXNode: dataspace changed to 0x104 pixel format: 0x1
+03-27 15:45:27.533 458-19087/? D/SimpleC2Component: Using output block pool with poolID 58 => got 58 - 0
+03-27 15:45:27.533 458-19087/? D/SimpleC2Component: applied 2 configUpdates => BAD_INDEX (6)
+03-27 15:45:27.533 458-19087/? D/C2SoftAvcEnc: Params width 720 height 1280 level 41 colorFormat 0 bframes 0
+03-27 15:45:27.534 458-19087/? E/C2SoftAvcEnc: Unable to set air params = 0x1ad
+03-27 15:45:27.540 19040-19065/? W/Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+03-27 15:45:27.547 6873-6873/? I/Finsky: [2] xxq.onStartJob(4): SCH: job service start with id 9579.
+03-27 15:45:27.552 540-642/? I/ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example/.MainActivity} from uid 10171
+03-27 15:45:27.557 540-642/? W/ActivityTaskManager: Can't find TaskDisplayArea to determine support for multi window. Task id=120 attached=false
+03-27 15:45:27.562 6721-11478/? I/NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService started execution. cause:9 exec_start_elapsed_seconds: 2678 [CONTEXT service_id=218 ]
+03-27 15:45:27.563 19071-19082/? D/CCodecConfig: c2 config diff is   Buffer coded.init-data.value = {
+03-27 15:45:27.563 19071-19082/? D/CCodecConfig:     00000000:  00 00 00 01 67 42 c0 29  8d 68 0b 40 a1 a4 20 20  ....gB.).h.@..  
+03-27 15:45:27.563 19071-19082/? D/CCodecConfig:     00000010:  20 20 f0 88 46 a0 00 00  00 01 68 ce 01 a8 35 c8    ..F.....h...5.
+03-27 15:45:27.563 19071-19082/? D/CCodecConfig:   }
+03-27 15:45:27.563 6873-17440/? I/Finsky: [221] xvz.a(51): SCH: Satisfied jobs for 9579 are: 12-1
+03-27 15:45:27.565 19071-19071/? D/MPEG4Writer: fpathconf _PC_FILESIZEBITS:64
+03-27 15:45:27.565 19071-19071/? D/MPEG4Writer: File size limit set to 4503599627370495 bytes implicitly
+03-27 15:45:27.565 19071-19071/? D/MPEG4Writer: MP4WtrCtrlHlpLooper Started
+03-27 15:45:27.565 19071-19071/? I/MPEG4Writer: limits: 4503599627370495/0 bytes/us, bit rate: -1 bps and the estimated moov size 3192 bytes
+03-27 15:45:27.566 6873-19092/? I/Finsky: [225] xfq.accept(67): SCH: Job 12-1 starting
+03-27 15:45:27.567 6873-6873/? I/Finsky: [2] ContentSyncJob.v(3): [ContentSync] job started
+03-27 15:45:27.567 540-642/? D/CompatibilityChangeReporter: Compat change id reported: 174042980; UID 10171; state: DISABLED
+03-27 15:45:27.567 540-642/? D/CompatibilityChangeReporter: Compat change id reported: 184838306; UID 10171; state: DISABLED
+03-27 15:45:27.569 540-642/? D/CompatibilityChangeReporter: Compat change id reported: 185004937; UID 10171; state: DISABLED
+03-27 15:45:27.569 19071-19095/? I/MPEG4Writer: setStartTimestampUs: 2678659628
+03-27 15:45:27.569 19071-19095/? I/MPEG4Writer: Earliest track starting time: 2678659628
+03-27 15:45:27.569 540-642/? D/CompatibilityChangeReporter: Compat change id reported: 181136395; UID 10171; state: DISABLED
+03-27 15:45:27.570 540-642/? D/CompatibilityChangeReporter: Compat change id reported: 174042936; UID 10171; state: DISABLED
+03-27 15:45:27.574 6721-10009/? I/NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService finished executing. cause:9 result: 1 elapsed_millis: 46 uptime_millis: 46 exec_start_elapsed_seconds: 2678 [CONTEXT service_id=218 ]
+03-27 15:45:27.601 19040-19103/? D/libEGL: loaded /vendor/lib64/egl/libEGL_emulation.so
+03-27 15:45:27.601 19040-19040/? D/LifecycleMonitor: Lifecycle status change: com.example.MainActivity@cc64fc3 in: PRE_ON_CREATE
+03-27 15:45:27.602 19040-19040/? V/ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+03-27 15:45:27.603 6873-19098/? I/Finsky: [227] jfn.h(1): Completed 0 account content sy
+03-27 15:45:27.603 6873-19098/? I/Finsky: ncs with 0 successful.
+03-27 15:45:27.603 6873-6873/? I/Finsky: [2] ContentSyncJob.a(1): [ContentSync] Installation state replication succeeded.
+03-27 15:45:27.603 6873-6873/? I/Finsky: [2] xwe.r(4): SCH: jobFinished: 12-1. TimeElapsed: 37ms.
+03-27 15:45:27.604 350-350/? D/goldfish-address-space: claimShared: Ask to claim region [0x3ef993000 0x3efd17000]
+03-27 15:45:27.607 350-350/? D/goldfish-address-space: claimShared: Ask to claim region [0x3ed954000 0x3ee27a000]
+03-27 15:45:27.609 350-350/? D/goldfish-address-space: claimShared: Ask to claim region [0x3ec000000 0x3ec926000]
+03-27 15:45:27.613 408-408/? I/BpBinder: onLastStrongRef automatically unlinking death recipients: <uncached descriptor>
+03-27 15:45:27.619 350-350/? D/goldfish-address-space: claimShared: Ask to claim region [0x3f0f01000 0x3f1827000]
+03-27 15:45:27.621 6873-6912/? I/Finsky: [54] vfn.accept(41): SCH: Scheduling phonesky job Id: 1-1337, CT: 1679903157137, Constraints: [{ L: 23569931, D: 66769931, C: 1, I: 1, N: 1 }]
+03-27 15:45:27.623 19040-19103/? D/libEGL: loaded /vendor/lib64/egl/libGLESv1_CM_emulation.so
+03-27 15:45:27.624 19040-19103/? D/libEGL: loaded /vendor/lib64/egl/libGLESv2_emulation.so
+03-27 15:45:27.625 6873-6911/? I/Finsky: [53] xir.apply(9): SCH: Scheduling 1 system job(s)
+03-27 15:45:27.625 6873-6911/? I/Finsky: [53] xwb.d(4): SCH: Scheduling system job Id: 9581, L: 19999443, D: 63199443, C: false, I: false, N: 1
+03-27 15:45:27.628 350-350/? D/goldfish-address-space: claimShared: Ask to claim region [0x3ec926000 0x3eccaa000]
+03-27 15:45:27.639 6873-19092/? I/Finsky: [225] xxq.a(16): SCH: job service finished with id 9579.
+03-27 15:45:27.646 350-350/? D/goldfish-address-space: claimShared: Ask to claim region [0x3eccaa000 0x3ed02e000]
+03-27 15:45:27.652 713-938/? D/EGL_emulation: app_time_stats: avg=669.57ms min=141.62ms max=1743.94ms count=4
+03-27 15:45:27.653 1023-1489/? D/EGL_emulation: app_time_stats: avg=292.52ms min=1.25ms max=872.54ms count=6
+03-27 15:45:27.655 713-938/? D/EGL_emulation: app_time_stats: avg=668.41ms min=145.85ms max=1738.77ms count=4
+03-27 15:45:27.661 19040-19040/? D/LifecycleMonitor: Lifecycle status change: com.example.MainActivity@cc64fc3 in: CREATED
+03-27 15:45:27.661 19040-19040/? V/ActivityScenario: Update currentActivityStage to CREATED, currentActivity=com.example.MainActivity@cc64fc3
+03-27 15:45:27.662 19040-19040/? D/LifecycleMonitor: Lifecycle status change: com.example.MainActivity@cc64fc3 in: STARTED
+03-27 15:45:27.662 19040-19040/? V/ActivityScenario: Update currentActivityStage to STARTED, currentA
+03-27 15:45:27.662 19040-19040/? V/ActivityScenario: ctivity=com.example.MainActivity@cc64fc3
+03-27 15:45:27.664 19040-19040/? D/LifecycleMonitor: Lifecycle status change: com.example.MainActivity@cc64fc3 in: RESUMED
+03-27 15:45:27.664 19040-19040/? V/ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=com.example.MainActivity@cc64fc3
+03-27 15:45:27.664 540-1784/? W/ActivityManager: Unable to start service Intent { act=android.service.smartspace.SmartspaceService cmp=com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiSmartspaceService } U=0: not found
+03-27 15:45:27.664 540-1784/? W/RemoteSmartspaceService: could not bind to Intent { act=android.service.smartspace.SmartspaceService cmp=com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiSmartspaceService } using flags 67112961
+03-27 15:45:27.664 540-540/? W/ActivityManager: Unbind failed: could not find connection for android.app.LoadedApk$ServiceDispatcher$InnerConnection@42513bc
+03-27 15:45:27.671 1432-1432/? I/A: onApplyWindowInsets: systemWindowInsets=Insets{left=0, top=66, right=0, bottom=132}
+03-27 15:45:27.671 1432-1432/? I/A: onApplyWindowInsets: systemWindowInsets=Insets{left=0, top=66, right=0, bottom=132}
+03-27 15:45:27.686 1305-1305/? I/GsaVoiceInteractionSrv: Handling ACTION_STOP_HOTWORD
+03-27 15:45:27.686 1305-1305/? E/HwDetectorWithState: a: 3
+03-27 15:45:27.694 19040-19100/? D/HostConnection: createUnique: call
+03-27 15:45:27.695 19040-19100/? D/HostConnection: HostConnection::get() New Host Connection established 0x7fa32f90edd0, tid 19100
+03-27 15:45:27.701 19040-19100/? D/HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_native_sync_v3 ANDROID_EMU_native_sync_v4 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_mem
+03-27 15:45:27.701 19040-19100/? D/HostConnection: ory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_vulkan_queue_submit_with_commands ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+03-27 15:45:27.702 192-192/? I/hwservicemanager: getTransport: Cannot find entry android.hardware.configstore@1.0::ISurfaceFlingerConfigs/default in either framework or device VINTF manifest.
+03-27 15:45:27.703 19040-19100/? W/OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+03-27 15:45:27.703 19040-19100/? W/OpenGLRenderer: Failed to initialize 101010-2 format, error = EGL_SUCCESS
+03-27 15:45:27.704 19040-19100/? D/EGL_emulation: eglCreateContext: 0x7fa32f90f010: maj 3 min 0 rcv 3
+03-27 15:45:27.705 19040-19100/? D/EGL_emulation: eglMakeCurrent: 0x7fa32f90f010: ver 3 0 (tinfo 0x7fa54d615080) (first time)
+03-27 15:45:27.708 408-1179/? E/HWComposer: getSupportedContentTypes: getSupportedContentTypes failed for display 4619827259835644672: Unsupported (8)
+03-27 15:45:27.709 192-192/? I/hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+03-27 15:45:27.709 19040-19100/? I/Gralloc4: mapper 4.x is not supported
+03-27 15:45:27.710 19040-19100/? D/HostConnection: createUnique: call
+03-27 15:45:27.710 19040-19100/? D/HostConnection: HostConnection::get() New Host Connection established 0x7fa32f90fe50, tid 19100
+03-27 15:45:27.710 19040-19100/? D/goldfish-address-space: allocate: Ask for block of size 0x100
+03-27 15:45:27.710 19040-19100/? D/goldfish-address-space: allocate: ioctl allocate returned offset 0x3ebffe000 size 0x2000
+03-27 15:45:27.728 192-192/? I/hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.allocator@4.0::IAllocator/default in either framework or device VINTF manifest.
+03-27 15:45:27.728 19040-19100/? W/Gralloc4: allocator 4.x is not supported
+03-27 15:45:27.730 350-350/? D/goldfish-address-space: claimShared: Ask to claim region [0x3f05db000 0x3f0f01000]
+03-27 15:45:27.743 19040-19100/? D/HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_native_sync_v3 ANDROID_EMU_native_sync_v4 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_alloc
+03-27 15:45:27.743 19040-19100/? D/HostConnection: ator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_vulkan_queue_submit_with_commands ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+03-27 15:45:27.745 350-350/? D/goldfish-address-space: claimShared: Ask to claim region [0x3f1827000 0x3f214d000]
+03-27 15:45:27.746 350-390/? D/goldfish-address-space: claimShared: Ask to claim region [0x3f214d000 0x3f2a73000]
+03-27 15:45:27.775 540-557/? I/ActivityTaskManager: Displayed com.example/.MainActivity: +221ms
+03-27 15:45:27.785 1267-1267/? I/GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3420 
+03-27 15:45:27.786 540-642/? W/InputManager-JNI: Input channel object '17e27e1 Splash Screen com.example (client)' was disposed without first being removed with the input manager!
+03-27 15:45:27.786 1267-1267/? I/GoogleInputMethodService: GoogleInputMethodService.onStartInput():2002 
+03-27 15:45:27.787 1267-1267/? I/DeviceUnlockedTag: DeviceUnlockedTag.notifyDeviceLockStatusChanged():31 Notify device unlocked.
+03-27 15:45:27.811 408-408/? W/SurfaceFlinger: couldn't log to binary event log: overflow.
+03-27 15:45:27.811 408-408/? W/SurfaceFlinger: couldn't log to binary event log: overflow.
+03-27 15:45:28.176 6721-6734/? I/FontLog: Received query Noto Color Emoji Compat, URI content://com.google.android.gms.fonts [CONTEXT service_id=132 ]
+03-27 15:45:28.177 6721-6734/? I/FontLog: Query [emojicompat-emoji-font] resolved to {Noto Color Emoji Compat, wdth 100.0, wght 400, ital 0.0, bestEffort false} [CONTEXT service_id=132 ]
+03-27 15:45:28.180 6721-6734/? I/FontLog: Fetch {Noto Color Emoji Compat, wdth 100.0, wght 400, ital 0.0, bestEffort false} end status Status{statusCode=SUCCESS, resolution=null} [CONTEXT service_id=132 ]
+03-27 15:45:28.185 6721-6734/? I/FontLog: Pulling font file for id = 33, cache size = 9 [CONTEXT service_id=132 ]
+03-27 15:45:28.190 6721-6734/? I/FontLog: Pulling font file for id = 33, cache size = 9 [CONTEXT service_id=132 ]
+03-27 15:45:28.965 458-768/? D/BufferPoolAccessor2.0: evictor expired: 1, evicted: 0
+03-27 15:45:28.985 11419-19153/? I/ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+03-27 15:45:29.831 11419-19161/? I/ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+03-27 15:45:30.965 458-768/? D/BufferPoolAccessor2.0: evictor expired: 1, evicted: 0
+03-27 15:45:31.474 11419-19170/? I/ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+03-27 15:45:32.260 11419-19176/? I/ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+03-27 15:45:32.366 7430-19179/? I/GmscoreIpa: Starting mediastore instant index [CONTEXT service_id=255 ]
+03-27 15:45:32.542 7430-7455/? I/ContentMaintenance: Internal cache bytes used: 0; limit: 100000000; download size: 0
+03-27 15:45:32.551 7430-7455/? I/RealtimeCacheCleanup: Beginning Realtime garbage collection.
+03-27 15:45:32.552 7430-7455/? I/RealtimeCacheCleanup: Finished Realtime garbage collection.
+03-27 15:45:32.822 19040-19040/? W/com.example: Accessing hidden method Landroid/os/MessageQueue;->next()Landroid/os/Message; (unsupported, reflection, allowed)
+03-27 15:45:32.822 19040-19040/? W/com.example: Accessing hidden field Landroid/os/MessageQueue;->mMessages:Landroid/os/Message; (unsupported, reflection, allowed)
+03-27 15:45:32.822 19040-19040/? W/com.example: [ 03-27 15:45:32.822 19
+03-27 15:45:32.822 19040-19040/? W/com.example: 040:19040 W/com.example ]
+03-27 15:45:32.822 19040-19040/? W/com.example: Accessing hidden method Landroid/os/Message;->recycleUnchecked()V (unsupported, reflection, allowed)
+03-27 15:45:32.824 19040-19040/? W/com.example: Accessing hidden method Landroid/view/WindowManagerGlobal;->getInstance()Landroid/view/WindowManagerGlobal; (unsupported, reflection, allowed)
+03-27 15:45:32.824 19040-19040/? W/com.example: Accessing hidden field Landroid/view/WindowManagerGlobal;->mViews:Ljava/util/ArrayList; (unsupported, reflection, allowed)
+03-27 15:45:32.824 19040-19040/? W/com.example: Accessing hidden field Landroid/view/WindowManagerGlobal;->mParam
+03-27 15:45:32.824 19040-19040/? W/com.example: s:Ljava/util/ArrayList; (unsupported, reflection, allowed)
+03-27 15:45:32.827 19040-19040/? I/ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Test"}' assertion on view (view.getId() is <2131230838/com.example:id/edittext>)
+03-27 15:45:32.830 540-642/? I/ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity} from uid 10171
+03-27 15:45:32.830 540-642/? W/ActivityTaskManager: Can't find TaskDisplayArea to determine support for multi window. Task id=121 attached=false
+03-27 15:45:32.841 19040-19040/? D/LifecycleMonitor: Lifecycle status change: com.example.MainActivity@cc64fc3 in: PAUSED
+03-27 15:45:32.841 19040-19040/? V/ActivityScenario: Update currentActivityStage to PAUSED, currentActivity=com.example.MainActivity@cc64fc3
+03-27 15:45:32.842 540-642/? W/ActivityTaskManager: Tried to set launchTime (0) < mLastActivityLaunchTime (2676827)
+03-27 15:45:32.852 350-390/? D/goldfish-address-space: claimShared: Ask to claim region [0x3ec000000 0x3ec926000]
+03-27 15:45:32.853 408-408/? I/BpBinder: onLastStrongRef automatically unlinking death recipients: <uncached descriptor>
+03-27 15:45:32.856 350-390/? D/goldfish-address-space: claimShared: Ask to claim region [0x3ed02e000 0x3ed954000]
+03-27 15:45:32.857 350-390/? D/goldfish-address-space: claimShared: Ask to claim region [0x3ed954000 0x3ee27a000]
+03-27 15:45:32.860 350-390/? D/goldfish-address-space: claimShared: Ask to claim region [0x3f2a73000 0x3f304e000]
+03-27 15:45:32.863 19040-19100/? D/EGL_emulation: app_time_stats: avg=1697.97ms min=12.97ms max=5062.09ms count=3
+03-27 15:45:32.874 458-19087/? D/BufferPoolAccessor2.0: bufferpool2 0x7de648628978 : 1(1382400 size) total buffers - 1(1382400 size) used buffers - 14/15 (recycle/alloc) - 1/14 (fetch/transfer)
+03-27 15:45:32.899 713-938/? D/EGL_emulation: app_time_stats: avg=2623.07ms min=166.95ms max=5079.20ms count=2
+03-27 15:45:32.899 350-390/? D/goldfish-address-space: claimShared: Ask to claim region [0x3f0f01000 0x3f1827000]
+03-27 15:45:32.901 350-390/? D/goldfish-address-space: claimShared: Ask to claim region [0x3f304e000 0x3f3974000]
+03-27 15:45:32.904 713-938/? D/EGL_emulation: app_time_stats: avg=2624.42ms min=176.19ms max=5072.65ms count=2
+03-27 15:45:32.904 350-390/? D/goldfish-address-space: claimShared: Ask to claim region [0x3f214d000 0x3f2a73000]
+03-27 15:45:32.905 19040-19040/? D/LifecycleMonitor: Lifecycle status change: com.example.MainActivity@cc64fc3 in: STOPPED
+03-27 15:45:32.905 19040-19040/? V/ActivityScenario: Update currentActivityStage to STOPPED, currentActivity=com.example.MainActivity@cc64fc3
+03-27 15:45:32.912 540-557/? I/ActivityTaskManager: Displayed com.example.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity: +81ms
+03-27 15:45:32.914 19040-19040/? D/LifecycleMonitor: Lifecycle status change: com.example.MainActivity@cc64fc3 in: DESTROYED
+03-27 15:45:32.915 19040-19040/? V/ActivityScenario: Update currentActivityStage to DESTROYED, currentActivity=null
+03-27 15:45:32.915 350-390/? D/goldfish-address-space: claimShared: Ask to claim region [0x3f3974000 0x3f3f4f000]
+03-27 15:45:32.925 540-642/? W/InputManager-JNI: Input channel object 'd743266 com.example/com.example.MainActivity (client)' was disposed without first being removed with the input manager!
+03-27 15:45:32.933 540-2697/? W/ActivityManager: Unable to start service Intent { act=android.service.smartspace.SmartspaceService cmp=com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiSmartspaceService } U=0: not found
+03-27 15:45:32.934 540-2697/? W/RemoteSmartspaceService: could not bind to Intent { act=android.service.smartspace.SmartspaceService cmp=c
+03-27 15:45:32.934 540-2697/? W/RemoteSmartspaceService: om.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiSmartspaceService } using flags 67112961
+03-27 15:45:32.936 540-540/? W/ActivityManager: Unbind failed: could not find connection for android.app.LoadedApk$ServiceDispatcher$InnerConnection@7109798
+03-27 15:45:32.938 1023-1038/? W/System: A resource failed to call release. 
+03-27 15:45:32.938 1023-1038/? W/System: A resource failed to call release. 
+03-27 15:45:32.938 1023-1038/? W/System: A resource failed to call release. 
+03-27 15:45:32.938 1023-1038/? W/System: A resource failed to call release. 
+03-27 15:45:32.938 1023-1038/? W/System: A resource failed to call release. 
+03-27 15:45:32.938 1023-1038/? W/System: A resource failed to call release. 
+03-27 15:45:32.938 1023-1038/? W/System: [ 03-27 15:45:
+03-27 15:45:32.938 1023-1038/? W/System: 32.938  1023: 1038 W/System   ]
+03-27 15:45:32.938 1023-1038/? W/System: A resource failed to call release. 
+03-27 15:45:32.938 1023-1038/? W/System: A resource failed to call release. 
+03-27 15:45:32.938 1023-1038/? W/System: A resource failed to call release. 
+03-27 15:45:32.938 540-2697/? W/InputManager-JNI: Input channel object '4159d9e Splash Screen com.example.test (client)' was disposed without first being removed with the input manager!
+03-27 15:45:32.944 540-561/? W/ActivityTaskManager: Can't find TaskDisplayArea to determine support for multi window. Task id=120 attached=false
+03-27 15:45:32.944 540-561/? W/ActivityTaskManager: Can't find TaskDisplayArea to determine support for multi window. Task id=120 attached=false
+03-27 15:45:32.948 1432-1432/? I/A: onApplyWindowInsets: systemWindowInsets=Insets{left=0, top=66, right=0, bottom=132}
+03-27 15:45:32.949 1432-1432/? I/A: onApplyWindowInsets: systemWindowInsets=Insets{left=0, top=66, right=0, bottom=132}
+03-27 15:45:32.949 19040-19065/? I/TestRunner: finished: testTextSlow4(com.example.MainActivitySlowTest)
+03-27 15:45:32.949 350-390/? D/goldfish-address-space: claimShared: Ask to claim region [0x3ed02e000 0x3ed954000]
+03-27 15:45:32.957 350-390/? D/goldfish-address-space: claimShared: Ask to claim region [0x3ed954000 0x3ee27a000]
+03-27 15:45:32.958 350-390/? D/goldfish-address-space: claimShared: Ask to claim region [0x3ee27a000 0x3eeba0000]
+03-27 15:45:32.962 408-408/? I/BpBinder: onLastStrongRef automatically unlinking death recipients: <uncached descriptor>
+03-27 15:45:32.962 540-2697/? W/ActivityManager: Unable to start service Intent { act=android.service.smartspace.SmartspaceService cmp=com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiSmartspaceService } U=0: not found
+03-27 15:45:32.962 540-2697/? W/RemoteSmartspaceService: could not bind to Intent { act=android.service.smartspace.SmartspaceService cmp=com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiSmartspaceService } using flags 67112961
+03-27 15:45:32.963 540-540/? W/ActivityManager: Unbind failed: could not find connection for android.app.LoadedApk$ServiceDispatcher$InnerConnection@44450ba
+03-27 15:45:32.963 350-390/? D/goldfish-address-space: claimShared: Ask to claim region [0x3ef3b8000 0x3ef73c000]
+03-27 15:45:32.965 1305-1305/? I/GsaVoiceInteractionSrv: Handling ACTION_START_HOTWORD
+03-27 15:45:32.965 1305-1305/? I/GsaVoiceInteractionSrv: disregardVoiceMatch: false
+03-27 15:45:32.965 1305-1305/? I/GsaVoiceInteractionSrv: Cannot start hotword, hotword has been explicitly disabled.
+03-27 15:45:32.967 350-390/? D/goldfish-address-space: claimShared: Ask to claim region [0x3ec000000 0x3ec926000]
+03-27 15:45:32.968 1432-2945/? I/OpenGLRenderer: Davey! duration=12280ms; Flags=1, FrameTimelineVsyncId=8512, IntendedVsync=2671805206131, Vsync=2671805206131, InputEventId=0, HandleInputStart=2671805490024, AnimationStart=2671805490715, PerformTraversalsStart=2671805491326, DrawStart=2671819801265, FrameDeadline=2671838539463, FrameInterval=2671805480536, FrameStartTime=16666666, SyncQueued=2671820550778, SyncStart=2671821539042, IssueDrawCommandsStart=267
+03-27 15:45:32.968 1432-2945/? I/OpenGLRenderer: 1821686299, SwapBuffers=2671821846360, FrameCompleted=2684086654740, DequeueBufferDuration=675025, QueueBufferDuration=390641, GpuCompleted=2684086654740, SwapBuffersCompleted=2671823312302, DisplayPresentTime=1419018544518094078, 
+03-27 15:45:32.971 350-390/? D/goldfish-address-space: claimShared: Ask to claim region [0x3f1827000 0x3f214d000]
+03-27 15:45:32.973 350-390/? D/goldfish-address-space: claimShared: Ask to claim region [0x3f0000000 0x3f0926000]
+03-27 15:45:32.981 540-2121/? W/InputManager-JNI: Input channel object 'b2b5b50 com.example.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity (client)' was disposed without first being removed with the input manager!
+03-27 15:45:33.000 19040-19065/? I/TestRunner: run finished: 1 tests, 0 failed, 0 ignored
+03-27 15:45:33.003 540-2121/? I/ActivityManager: Force stopping com.example appid=10171 user=0: finished inst
+03-27 15:45:33.007 19071-19096/? I/MPEG4Writer: setStartTimestampUs: 2678659628
+03-27 15:45:33.008 19020-19020/? I/app_process: System.exit called, status: 0
+03-27 15:45:33.008 19020-19020/? I/AndroidRuntime: VM exiting with result code 0.
+03-27 15:45:33.009 540-561/? W/ActivityTaskManager: Can't find TaskDisplayArea to determine support for multi window. Task id=121 attached=false
+03-27 15:45:33.009 540-561/? W/ActivityTaskManager: Can't find TaskDisplayArea to determine support for multi window. Task id=121 attached=false
+03-27 15:45:33.011 540-2121/? I/ActivityManager: Killing 19040:com.example/u0a171 (adj 0): stop com.example due to finished inst
+03-27 15:45:33.017 1267-1267/? I/GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3420 
+03-27 15:45:33.017 1267-1267/? I/GoogleInputMethodService: GoogleInputMethodService.onStartInput():2002 
+03-27 15:45:33.017 1267-1267/? I/DeviceUnlockedTag: DeviceUnlockedTag.notifyDeviceLockStatusChanged():31 Notify device unlocked.
+03-27 15:45:33.026 19071-19080/? W/GraphicBufferSource: released unpopulated slots: [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63]
+03-27 15:45:33.040 540-2121/? V/ActivityManager: Got obituary of 19040:com.example
+03-27 15:45:33.041 540-560/? W/ActivityManager: setHasOverlayUi called on unknown pid: 19040
+03-27 15:45:33.043 334-334/? I/Zygote: Process 19040 exited due to signal 9 (Killed)
+03-27 15:45:33.049 350-390/? D/goldfish-address-space: claimShared: Ask to claim region [0x3ef73c000 0x3ef986000]
+03-27 15:45:33.050 540-4656/? D/HostConnection: createUnique: call
+03-27 15:45:33.051 540-4656/? D/HostConnection: HostConnection::get() New Host Connection established 0x7fa32f9a5fd0, tid 4656
+03-27 15:45:33.055 540-4656/? D/HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_native_sync_v3 ANDROID_EMU_native_sync_v4 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache A
+03-27 15:45:33.055 540-4656/? D/HostConnection: NDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_vulkan_queue_submit_with_commands ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+03-27 15:45:33.055 540-570/? I/libprocessgroup: Successfully killed process cgroup uid 10171 pid 19040 in 44ms
+03-27 15:45:33.056 540-4656/? W/OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+03-27 15:45:33.056 540-4656/? W/OpenGLRenderer: Failed to initialize 101010-2 format, error = EGL_SUCCESS
+03-27 15:45:33.058 540-4656/? D/EGL_emulation: eglCreateContext: 0x7fa32f95c950: maj 3 min 0 rcv 3
+03-27 15:45:33.058 540-4656/? D/EGL_emulation: eglMakeCurrent: 0x7fa32f95c950: ver 3 0 (tinfo 0x7fa557182080) (first time)
+03-27 15:45:33.064 19071-19071/? D/MPEG4Writer: reset()
+03-27 15:45:33.064 19071-19095/? V/MediaWriter: Track event err/info msg:101, trackId:1, type:1000,val:-1011
+03-27 15:45:33.064 19071-19071/? D/MPEG4Writer: Video track stopping. Stop source
+03-27 15:45:33.064 19071-19071/? D/MPEG4Writer: Video track source stopping
+03-27 15:45:33.064 19071-19071/? D/MPEG4Writer: Video track source stopped
+03-27 15:45:33.064 19071-19095/? I/MPEG4Writer: Received total/0-length (19/0) buffers and encoded 19 frames. - Video
+03-27 15:45:33.064 19071-19071/? D/MPEG4Writer: Video track stopped. Status:0. Stop source
+03-27 15:45:33.064 19071-19096/? V/MediaWriter: Track event err/info msg:101, trackId:2, type:1000,val:-1011
+03-27 15:45:33.064 19071-19096/? W/MPEG4Writer: 0-duration samples found: 1
+03-27 15:45:33.064 19071-19096/? I/MPEG4Writer: Received total/0-length (1/0) buffers and encoded 1 frames. - Metadata
+03-27 15:45:33.064 19071-19071/? D/MPEG4Writer: Metadata track stopping. Stop source
+03-27 15:45:33.064 19071-19071/? D/MPEG4Writer: Metadata track source stopping
+03-27 15:45:33.064 19071-19071/? D/MPEG4Writer: Metadata track source stopped
+03-27 15:45:33.064 19071-19071/? D/MPEG4Writer: Metadata track stopped. Status:0. Stop source
+03-27 15:45:33.064 19071-19071/? D/MPEG4Writer: Duration from tracks range is [0, 5389560] us
+03-27 15:45:33.065 19071-19093/? D/MPEG4Writer: 1 chunks are written in the last batch
+03-27 15:45:33.065 19071-19071/? D/MPEG4Writer: WriterThread stopped. Status:0
+03-27 15:45:33.065 19071-19071/? I/MPEG4Writer: Adjust the moov start time from 2678659628 us -> 2678659628 us
+03-27 15:45:33.065 19071-19071/? I/MPEG4Writer: MOOV atom was written to the file
+03-27 15:45:33.065 19071-19071/? D/MPEG4Writer: release()
+03-27 15:45:33.065 19071-19071/? D/MPEG4Writer: ftruncate mPreAllocateFileEndOffset:69076 mOffset:1456 mMdatEndOffset:66612 diff:2464
+03-27 15:45:33.067 19071-19071/? D/MPEG4Writer: final fsync() takes 2 ms, file size 66612
+03-27 15:45:33.067 19071-19071/? D/MPEG4Writer: MP4WtrCtrlHlpLooper stopped
+03-27 15:45:33.067 19071-19071/? D/MPEG4Writer: Top 5 write durations(microseconds): #1:11 #2:13 #3:183 #4:265 #5:450
+03-27 15:45:33.073 19071-19082/? I/hw-BpHwBinder: onLastStrongRef automatically unlinking death recipients
+03-27 15:45:33.073 458-6172/? I/hw-BpHwBinder: onLastStrongRef automatically unlinking death recipients
+03-27 15:45:33.074 458-6172/? V/C2Store: in ~ComponentModule
+03-27 15:45:33.074 458-6172/? V/C2Store: unloading dll
+03-27 15:45:33.086 713-730/? I/ndroid.systemu: NativeAlloc concurrent copying GC freed 17972(859KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 9705KB/18MB, paused 50us,19us total 160.913ms
+03-27 15:45:33.089 713-732/? W/System: A resource failed to call close. 
+03-27 15:45:33.089 713-732/? W/System: A resource failed to call close. 
+03-27 15:45:33.089 713-732/? W/System: A resource failed to call release. 
+03-27 15:45:33.089 713-732/? W/System: A resource failed to call release. 
+03-27 15:45:33.089 713-732/? W/System: A resource failed to call close. 
+03-27 15:45:33.089 713-732/? W/System: A resource failed to call close. 
+03-27 15:45:33.089 713-732/? W/System: A resource failed to call release. 
+03-27 15:45:33.089 713-732/? W/System: A resource failed to call release. 
+03-27 15:45:33.093 1303-2216/? I/MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/com.example.MainActivitySlowTest-testTextSlow4-faa9e9c8-39d8-4c94-84b5-df55ac9b5166.mp4 flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+03-27 15:45:33.094 19071-19071/? D/ScreenRecord: success
+03-27 15:45:33.095 19071-19071/? I/BpBinder: onLastStrongRef automatically unlinking death recipients: <uncached descriptor>
+03-27 15:45:33.096 19071-19071/? I/BpBinder: onLastStrongRef automatically unlinking death recipients: <uncached descriptor>
+03-27 15:45:33.097 458-6172/? D/BufferPoolAccessor2.0: Destruction - bufferpool2 0x7de648628978 cached: 0/0M, 0/0% in use; allocs: 20, 95% recycled; transfers: 20, 95% unfetched
+03-27 15:45:33.116 1303-2216/? I/MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/com.example.MainActivitySlowTest-testTextSlow4-faa9e9c8-39d8-4c94-84b5-df55ac9b5166.mp4 flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+03-27 15:45:33.133 6721-17547/? I/NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService started execution. cause:9 exec_start_elapsed_seconds: 2684 [CONTEXT service_id=218 ]
+03-27 15:45:33.137 6721-6757/? I/NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService finished executing. cause:9 result: 1 elapsed_millis: 10 uptime_millis: 10 exec_start_elapsed_seconds: 2684 [CONTEXT service_id=218 ]
+03-27 15:45:33.690 1303-1550/? I/MediaProvider: Deleted 0 0 0 1 0 0 0 items on external_primary due to com.android.shell

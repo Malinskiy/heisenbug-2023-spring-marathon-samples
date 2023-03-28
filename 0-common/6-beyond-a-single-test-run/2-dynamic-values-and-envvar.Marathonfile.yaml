@@ -1,0 +1,13 @@
+name: "My awesome tests"
+outputDir: "marathon"
+debug: false
+filteringConfiguration:
+  allowlist:
+    # https://docs.marathonlabs.io/configuration/filtering#values-file-filtering
+    - type: "fully-qualified-test-name"
+      # MARATHON_FILTER=smoke marathon -m 0-common/6-beyond-a-single-test-run/2-dynamic-values-and-envvar.Marathonfile.yaml
+      file: "${MARATHON_FILTER}.filter"
+vendorConfiguration:
+  type: "Android"
+  applicationApk: "../../dist/app-debug.apk"
+  testApplicationApk: "../../dist/app-debug-androidTest.apk"

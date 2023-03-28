@@ -1,0 +1,31 @@
+name: "My awesome tests"
+outputDir: "marathon"
+debug: false
+vendorConfiguration:
+  type: "Android"
+  applicationApk: "../../dist/app-debug.apk"
+  testApplicationApk: "../../dist/app-debug-androidTest.apk"
+  fileSyncConfiguration:
+    # https://docs.marathonlabs.io/android/configure#syncpull-files-from-device-after-test-run
+    pull:
+      - relativePath: "my-device-folder1"
+        aggregationMode: TEST_RUN
+        pathRoot: EXTERNAL_STORAGE
+      - relativePath: "my-device-folder2"
+        aggregationMode: DEVICE
+        pathRoot: EXTERNAL_STORAGE
+      - relativePath: "my-device-folder3"
+        aggregationMode: DEVICE_AND_POOL
+        pathRoot: EXTERNAL_STORAGE
+      - relativePath: "my-device-folder4"
+        aggregationMode: POOL
+        pathRoot: EXTERNAL_STORAGE
+    # https://docs.marathonlabs.io/android/configure#push-files-to-device-before-each-batch-execution
+    push:
+      - path: "/home/user/folder"
+        pathRoot: LOCAL_TMP
+      - path: "/home/user/testfile.txt" 
+        pathRoot: EXTERNAL_STORAGE
+  # https://docs.marathonlabs.io/android/configure#allure-kotlin-support
+  allureConfiguration:
+    enabled: true

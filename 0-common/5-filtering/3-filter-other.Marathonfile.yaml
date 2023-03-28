@@ -1,0 +1,27 @@
+# Doesn't work, for demo purposes only
+name: "My awesome tests"
+outputDir: "marathon"
+debug: false
+# https://docs.marathonlabs.io/configuration/filtering#filtering-logic
+filteringConfiguration:
+  allowlist:
+    # https://docs.marathonlabs.io/configuration/filtering#simple-class-name
+    - type: "simple-class-name"
+      values:
+        - "MainActivityTest"
+    # https://docs.marathonlabs.io/configuration/filtering#package
+    - type: "package"
+      values:
+        - "com.example"
+    # https://docs.marathonlabs.io/configuration/filtering#package
+    - type: "method"
+      values:
+        - "testText"
+    # https://docs.marathonlabs.io/configuration/filtering#annotation
+    - type: "annotation"
+      values:
+        - "com.example.LocalEmulatorTest"
+vendorConfiguration:
+  type: "Android"
+  applicationApk: "../../dist/app-debug.apk"
+  testApplicationApk: "../../dist/app-debug-androidTest.apk"

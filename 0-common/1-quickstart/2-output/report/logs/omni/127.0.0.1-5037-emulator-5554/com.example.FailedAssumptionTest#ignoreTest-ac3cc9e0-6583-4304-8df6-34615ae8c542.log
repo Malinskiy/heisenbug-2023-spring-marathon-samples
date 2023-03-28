@@ -1,0 +1,8 @@
+03-27 15:46:06.007 6721-17547/? I/NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService started execution. cause:9 exec_start_elapsed_seconds: 2717 [CONTEXT service_id=218 ]
+03-27 15:46:06.009 6721-6757/? I/NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService finished executing. cause:9 result: 1 elapsed_millis: 12 uptime_millis: 12 exec_start_elapsed_seconds: 2717 [CONTEXT service_id=218 ]
+03-27 15:46:06.036 1303-1550/? W/MediaProvider: isAppCloneUserPair for user 0: false
+03-27 15:46:06.057 6721-17547/? I/NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService started execution. cause:9 exec_start_elapsed_seconds: 2717 [CONTEXT service_id=218 ]
+03-27 15:46:06.059 6721-10009/? I/NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService finished executing. cause:9 result: 1 elapsed_millis: 8 uptime_millis: 8 exec_start_elapsed_seconds: 2717 [CONTEXT service_id=218 ]
+03-27 15:46:06.204 11419-21021/? I/ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+03-27 15:46:06.314 1023-1489/? D/EGL_emulation: app_time_stats: avg=225.23ms min=3.97ms max=717.90ms count=5
+03-27 15:46:06.697 1303-1551/? I/MediaProvider: Deleted 0 0 0 1 0 0 0 items on external_primary due to com.android.shell

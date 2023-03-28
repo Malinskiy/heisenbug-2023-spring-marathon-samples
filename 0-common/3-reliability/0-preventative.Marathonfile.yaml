@@ -1,0 +1,20 @@
+name: "My awesome tests"
+outputDir: "marathon"
+debug: false
+# https://docs.marathonlabs.io/configuration/flakiness#probability-based-flakiness-strategy
+flakinessStrategy:
+  type: "probability"
+  minSuccessRate: 0.9
+  maxCount: 3
+  timeLimit: "-PT24H"
+# https://docs.marathonlabs.io/configuration/analytics#influxdb-v2
+analyticsConfiguration:
+  type: "influxdb2"
+  url: "http://influx2.svc.cluster.local:8086"
+  token: "wally-west"
+  organization: "starlabs"
+  bucket: "barry-allen"
+vendorConfiguration:
+  type: "Android"
+  applicationApk: "../../dist/app-debug.apk"
+  testApplicationApk: "../../dist/app-debug-androidTest.apk"

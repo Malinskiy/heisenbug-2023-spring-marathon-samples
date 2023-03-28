@@ -1,0 +1,22 @@
+# https://docs.marathonlabs.io/intro/configure#uncompleted-test-retry-quota
+uncompletedTestRetryQuota: 100
+# https://docs.marathonlabs.io/configuration/batching#fixed-size-batching
+retryStrategy:
+  type: "fixed-quota"
+  totalAllowedRetryQuota: 100
+  retryPerTestQuota: 3
+batchingStrategy:
+  type: "fixed-size"
+  size: 1
+# https://docs.marathonlabs.io/configuration/sorting#execution-time-sorting
+sortingStrategy:
+  type: "execution-time"
+  percentile: 80.0
+  timeLimit: "-PT24H"
+# https://docs.marathonlabs.io/configuration/analytics#influxdb-v2
+analyticsConfiguration:
+  type: "influxdb2"
+  url: "http://influx2.svc.cluster.local:8086"
+  token: "wally-west"
+  organization: "starlabs"
+  bucket: "barry-allen"

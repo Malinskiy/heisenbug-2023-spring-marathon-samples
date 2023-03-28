@@ -1,0 +1,21 @@
+name: "My application"
+outputDir: "derived-data/Marathon"
+debug: false
+testClassRegexes: ["^((?!Abstract).)*Tests$"]
+vendorConfiguration:
+  type: "iOS"
+  application: "../../dist/my.app"
+  testApplication: "../../dist/my.xctest"
+  # https://docs.marathonlabs.io/ios/configure#screen-recorder-configuration
+  screenRecordConfiguration:
+    screenRecordConfiguration:
+      preferableRecorderType: "screenshot"
+    screenshotConfiguration:
+      enabled: true
+      type: jpeg
+      display: internal
+      mask: black
+      width: 720
+      height: 1280
+      # ISO_8601 duration
+      delay: PT1S

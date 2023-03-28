@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Test Execution</title>
+
+  <link href='https://fonts.googleapis.com/css?family=Muli' rel='stylesheet' type='text/css'>
+  <link href='chart.css' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+
+<p id="testChart"></p>
+
+<script src="https://momentjs.com/downloads/moment.js" type="text/javascript"></script>
+<script charset="utf-8" src="https://d3js.org/d3.v3.min.js"></script>
+
+<script>
+    moment.locale('en');
+
+
+
+</script>
+<script src="chart.js"></script>
+<script src="iframeResizer.contentWindow.min.js"></script>
+
+<script type="text/javascript">
+    var dataset = {"passedTests":26,"failedTests":16,"ignoredTests":3,"executionStats":{"idleTimeMillis":49637,"averageTestExecutionTimeMillis":2133},"measures":[{"measure":"127.0.0.1:5037:emulator-5554","stats":{"idleTimeMillis":21538,"averageTestExecutionTimeMillis":2060},"data":[{"testName":"DEVICE_PROVIDER_INIT","metricType":"DEVICE_PROVIDER_INIT","startDate":1679906702082,"endDate":1679906702083,"expectedValue":0.0,"variance":0.0},{"testName":"DEVICE_PREPARE","metricType":"DEVICE_PREPARE","startDate":1679906702758,"endDate":1679906704121,"expectedValue":0.0,"variance":0.0},{"testName":"AdbActivityTest.testUnsafeAccess","metricType":"FAILURE","startDate":1679906704931,"endDate":1679906706405,"expectedValue":0.0,"variance":0.0},{"testName":"ParameterizedTest.test","metricType":"PASSED","startDate":1679906707129,"endDate":1679906707820,"expectedValue":0.0,"variance":0.0},{"testName":"MainActivityTest.testText9","metricType":"PASSED","startDate":1679906712654,"endDate":1679906714466,"expectedValue":0.0,"variance":0.0},{"testName":"NamedParameterizedTest.test","metricType":"FAILURE","startDate":1679906714468,"endDate":1679906715365,"expectedValue":0.0,"variance":0.0},{"testName":"MainActivityTest.testText6","metricType":"PASSED","startDate":1679906716129,"endDate":1679906718094,"expectedValue":0.0,"variance":0.0},{"testName":"MainActivityTest.testText5","metricType":"PASSED","startDate":1679906718966,"endDate":1679906720722,"expectedValue":0.0,"variance":0.0},{"testName":"MainActivityTest.testText3","metricType":"PASSED","startDate":1679906721472,"endDate":1679906723211,"expectedValue":0.0,"variance":0.0},{"testName":"MainActivityTest.testText1","metricType":"PASSED","startDate":1679906723899,"endDate":1679906725643,"expectedValue":0.0,"variance":0.0},{"testName":"MainActivityTest.testText","metricType":"PASSED","startDate":1679906726548,"endDate":1679906728368,"expectedValue":0.0,"variance":0.0},{"testName":"MainActivitySlowTest.testTextSlow4","metricType":"PASSED","startDate":1679906729102,"endDate":1679906735463,"expectedValue":0.0,"variance":0.0},{"testName":"MainActivitySlowTest.testTextSlow2","metricType":"PASSED","startDate":1679906736205,"endDate":1679906742356,"expectedValue":0.0,"variance":0.0},{"testName":"MainActivitySlowTest.testTextSlow","metricType":"PASSED","startDate":1679906743053,"endDate":1679906749248,"expectedValue":0.0,"variance":0.0},{"testName":"MainActivityFlakyTest.testTextFlaky6","metricType":"FAILURE","startDate":1679906749918,"endDate":1679906751469,"expectedValue":0.0,"variance":0.0},{"testName":"MainActivityFlakyTest.testTextFlaky4","metricType":"PASSED","startDate":1679906752302,"endDate":1679906754159,"expectedValue":0.0,"variance":0.0},{"testName":"MainActivityFlakyTest.testTextFlaky3","metricType":"PASSED","startDate":1679906755048,"endDate":1679906756979,"expectedValue":0.0,"variance":0.0},{"testName":"MainActivityFlakyTest.testTextFlaky1","metricType":"FAILURE","startDate":1679906757857,"endDate":1679906760069,"expectedValue":0.0,"variance":0.0},{"testName":"MainActivityAllureTest.testText","metricType":"PASSED","startDate":1679906761317,"endDate":1679906763515,"expectedValue":0.0,"variance":0.0},{"testName":"GrpcActivityTest.testVmState","metricType":"FAILURE","startDate":1679906764372,"endDate":1679906765644,"expectedValue":0.0,"variance":0.0},{"testName":"FilePushTest.testExternalFolderPresent","metricType":"FAILURE","startDate":1679906766379,"endDate":1679906767751,"expectedValue":0.0,"variance":0.0},{"testName":"FailedAssumptionTest.ignoreTest","metricType":"IGNORED","startDate":1679906767752,"endDate":1679906768468,"expectedValue":0.0,"variance":0.0},{"testName":"FailedAssumptionTest.failedAssumptionTest","metricType":"ASSUMPTION_FAILURE","startDate":1679906769245,"endDate":1679906770033,"expectedValue":0.0,"variance":0.0},{"testName":"EdgeCaseTest.testWithAVeryLongNameThatExceeds255CharactersqwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNMqwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNMqwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNMqwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNMqwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM","metricType":"PASSED","startDate":1679906770765,"endDate":1679906773322,"expectedValue":0.0,"variance":0.0},{"testName":"AdbActivityTest.testVmState","metricType":"FAILURE","startDate":1679906774043,"endDate":1679906775143,"expectedValue":0.0,"variance":0.0}]},{"measure":"127.0.0.1:5037:emulator-5556","stats":{"idleTimeMillis":28099,"averageTestExecutionTimeMillis":2207},"data":[{"testName":"DEVICE_PROVIDER_INIT","metricType":"DEVICE_PROVIDER_INIT","startDate":1679906702084,"endDate":1679906702084,"expectedValue":0.0,"variance":0.0},{"testName":"DEVICE_PREPARE","metricType":"DEVICE_PREPARE","startDate":1679906702758,"endDate":1679906704256,"expectedValue":0.0,"variance":0.0},{"testName":"ScreenshotTest.testScreencapture","metricType":"PASSED","startDate":1679906705794,"endDate":1679906709328,"expectedValue":0.0,"variance":0.0},{"testName":"NamedParameterizedTest.test","metricType":"INCOMPLETE","startDate":1679906709345,"endDate":1679906712267,"expectedValue":0.0,"variance":0.0},{"testName":"MainActivityTest.testText8","metricType":"PASSED","startDate":1679906712972,"endDate":1679906714812,"expectedValue":0.0,"variance":0.0},{"testName":"MainActivityTest.testText7","metricType":"PASSED","startDate":1679906716807,"endDate":1679906718579,"expectedValue":0.0,"variance":0.0},{"testName":"MainActivityTest.testText4","metricType":"PASSED","startDate":1679906719720,"endDate":1679906721574,"expectedValue":0.0,"variance":0.0},{"testName":"MainActivityTest.testText2","metricType":"PASSED","startDate":1679906725197,"endDate":1679906729168,"expectedValue":0.0,"variance":0.0},{"testName":"MainActivitySlowTest.testTextSlow3","metricType":"PASSED","startDate":1679906731574,"endDate":1679906737812,"expectedValue":0.0,"variance":0.0},{"testName":"MainActivitySlowTest.testTextSlow1","metricType":"PASSED","startDate":1679906738508,"endDate":1679906744636,"expectedValue":0.0,"variance":0.0},{"testName":"MainActivityFlakyTest.testTextFlaky8","metricType":"PASSED","startDate":1679906745389,"endDate":1679906747494,"expectedValue":0.0,"variance":0.0},{"testName":"MainActivityFlakyTest.testTextFlaky7","metricType":"PASSED","startDate":1679906748200,"endDate":1679906749721,"expectedValue":0.0,"variance":0.0},{"testName":"MainActivityFlakyTest.testTextFlaky5","metricType":"FAILURE","startDate":1679906752890,"endDate":1679906754714,"expectedValue":0.0,"variance":0.0},{"testName":"MainActivityFlakyTest.testTextFlaky2","metricType":"PASSED","startDate":1679906755915,"endDate":1679906758278,"expectedValue":0.0,"variance":0.0},{"testName":"MainActivityFlakyTest.testTextFlaky","metricType":"PASSED","startDate":1679906759791,"endDate":1679906763160,"expectedValue":0.0,"variance":0.0},{"testName":"MainActivityAllureTest.testFailure","metricType":"FAILURE","startDate":1679906765051,"endDate":1679906767630,"expectedValue":0.0,"variance":0.0},{"testName":"FilePushTest.testExternalFilePresent","metricType":"PASSED","startDate":1679906769744,"endDate":1679906770956,"expectedValue":0.0,"variance":0.0},{"testName":"ConsoleActivityTest.testVmState","metricType":"FAILURE","startDate":1679906771691,"endDate":1679906772492,"expectedValue":0.0,"variance":0.0},{"testName":"ClassIgnoredTest.testAlwaysIgnored","metricType":"IGNORED","startDate":1679906772493,"endDate":1679906773313,"expectedValue":0.0,"variance":0.0},{"testName":"BeforeTestFailureTest.testThatWillNotSeeTheLightOfDay","metricType":"INCOMPLETE","startDate":1679906774741,"endDate":1679906774741,"expectedValue":0.0,"variance":0.0},{"testName":"BeforeTestFailureTest.testThatWillNotSeeTheLightOfDay","metricType":"FAILURE","startDate":1679906776534,"endDate":1679906776535,"expectedValue":0.0,"variance":0.0}]}]}
+
+
+
+</script>
+
+<script>
+    var chart = testsChart();
+    d3.select("#testChart")
+        .datum(dataset)
+        .call(chart);
+
+
+
+</script>
+</body>
+</html>

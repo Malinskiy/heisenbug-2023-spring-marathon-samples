@@ -1,0 +1,10 @@
+name: "My awesome tests"
+outputDir: "marathon"
+debug: false
+vendorConfiguration:
+  type: "Android"
+  applicationApk: "../../dist/app-debug.apk"
+  testApplicationApk: "../../dist/app-debug-androidTest.apk"
+  # https://docs.marathonlabs.io/android/configure#clear-state-between-test-batch-executions
+  applicationPmClear: true
+  testApplicationPmClear: true
