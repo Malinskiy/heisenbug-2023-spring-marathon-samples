@@ -1,0 +1,13 @@
+Test Case '-[sample_appUITests.FlakyTests testTextFlaky]' passed (3.517 seconds).
+Test Suite 'FlakyTests' passed at 2023-03-31 20:18:22.074.
+	 Executed 1 test, with 0 failures (0 unexpected) in 3.517 (3.518) seconds
+Test Suite 'marathon.xctest' passed at 2023-03-31 20:18:22.074.
+	 Executed 1 test, with 0 failures (0 unexpected) in 3.517 (3.520) seconds
+Test Suite 'Selected tests' passed at 2023-03-31 20:18:22.076.
+	 Executed 1 test, with 0 failures (0 unexpected) in 3.517 (3.523) seconds
+
+Test session results, code coverage, and logs:
+	/tmp/marathon/E5E62503-656C-42D3-879F-AA6B88F67374/E5E62503-656C-42D3-879F-AA6B88F67374.450a591f-09c6-4ba4-9294-cc889a6144f1.xcresult
+
+** TEST EXECUTE SUCCEEDED **
+

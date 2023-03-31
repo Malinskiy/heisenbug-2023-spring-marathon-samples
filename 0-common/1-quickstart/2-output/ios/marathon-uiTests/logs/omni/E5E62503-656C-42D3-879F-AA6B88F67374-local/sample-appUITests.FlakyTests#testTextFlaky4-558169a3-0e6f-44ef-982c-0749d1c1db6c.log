@@ -1,0 +1,9 @@
+    t =     0.00s Start Test at 2023-03-31 20:17:42.608
+    t =     0.06s Set Up
+    t =     0.07s     Open com.malinskiy.marathon.ios.sample-app
+    t =     0.12s         Launch com.malinskiy.marathon.ios.sample-app
+    t =     1.40s             Setting up automation session
+    t =     1.86s             Wait for com.malinskiy.marathon.ios.sample-app to idle
+/Users/malinskiy/Development/marathon/sample/ios-app/sample-appUITests/FlakyTests.swift:53: error: -[sample_appUITests.FlakyTests testTextFlaky4] : XCTAssertTrue failed
+    t =     3.34s Tear Down
+Test Case '-[sample_appUITests.FlakyTests testTextFlaky4]' failed (3.544 seconds).

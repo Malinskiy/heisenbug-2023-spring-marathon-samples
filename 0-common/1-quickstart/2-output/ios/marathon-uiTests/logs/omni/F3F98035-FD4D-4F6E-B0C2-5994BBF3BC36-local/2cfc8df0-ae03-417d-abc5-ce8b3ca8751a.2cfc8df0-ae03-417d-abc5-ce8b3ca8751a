@@ -1,0 +1,12 @@
+Test Suite 'StoryboardTests' passed at 2023-03-31 20:16:03.076.
+	 Executed 1 test, with 0 failures (0 unexpected) in 6.939 (6.941) seconds
+Test Suite 'marathon.xctest' passed at 2023-03-31 20:16:03.078.
+	 Executed 1 test, with 0 failures (0 unexpected) in 6.939 (6.943) seconds
+Test Suite 'Selected tests' passed at 2023-03-31 20:16:03.080.
+	 Executed 1 test, with 0 failures (0 unexpected) in 6.939 (6.947) seconds
+
+Test session results, code coverage, and logs:
+	/tmp/marathon/F3F98035-FD4D-4F6E-B0C2-5994BBF3BC36/F3F98035-FD4D-4F6E-B0C2-5994BBF3BC36.2cfc8df0-ae03-417d-abc5-ce8b3ca8751a.xcresult
+
+** TEST EXECUTE SUCCEEDED **
+

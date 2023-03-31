@@ -1,0 +1,11 @@
+Test Case '-[sample_appUITests.SlowTests testTextSlow2]' failed (12.544 seconds).
+Test Suite 'SlowTests' failed at 2023-03-31 20:15:45.992.
+	 Executed 3 tests, with 3 failures (0 unexpected) in 35.303 (35.305) seconds
+Test Suite 'marathon.xctest' failed at 2023-03-31 20:15:45.994.
+	 Executed 4 tests, with 3 failures (0 unexpected) in 42.198 (42.205) seconds
+Test Suite 'Selected tests' failed at 2023-03-31 20:15:45.995.
+	 Executed 4 tests, with 3 failures (0 unexpected) in 42.198 (42.209) seconds
+
+Test session results, code coverage, and logs:
+	/tmp/marathon/E5E62503-656C-42D3-879F-AA6B88F67374/E5E62503-656C-42D3-879F-AA6B88F67374.93937fc5-cdd0-4483-8904-2d35a7717c01.xcresult
+

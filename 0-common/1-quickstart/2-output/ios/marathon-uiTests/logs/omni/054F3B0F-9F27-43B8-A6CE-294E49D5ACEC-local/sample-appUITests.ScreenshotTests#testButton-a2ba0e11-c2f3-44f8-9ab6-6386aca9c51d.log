@@ -1,0 +1,20 @@
+Test Case '-[sample_appUITests.ScreenshotTests testButton]' started.
+    t =     0.01s Start Test at 2023-03-31 20:16:15.721
+    t =     0.08s Set Up
+    t =     0.09s     Open com.malinskiy.marathon.ios.sample-app
+    t =     0.16s         Launch com.malinskiy.marathon.ios.sample-app
+    t =     1.70s             Setting up automation session
+    t =     2.19s             Wait for com.malinskiy.marathon.ios.sample-app to idle
+    t =     3.66s Waiting 30.0s for Button to exist
+    t =     4.75s     Checking `Expect predicate `exists == 1` for object Button`
+    t =     4.76s         Checking existence of `Button`
+    t =     4.80s Find the Button
+    t =     4.85s Tap "First Button" Button
+    t =     4.85s     Wait for com.malinskiy.marathon.ios.sample-app to idle
+    t =     4.90s     Find the "First Button" Button
+    t =     4.95s     Check for interrupting elements affecting "First Button" Button
+    t =     5.00s     Synthesize event
+    t =     5.34s     Wait for com.malinskiy.marathon.ios.sample-app to idle
+    t =     5.96s Added attachment named 'Screenshot of main screen (ID 1).png'
+    t =     5.96s Tear Down
+Test Case '-[sample_appUITests.ScreenshotTests testButton]' passed (6.167 seconds).

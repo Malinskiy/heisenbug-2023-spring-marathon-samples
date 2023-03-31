@@ -1,0 +1,11 @@
+	 Executed 1 test, with 0 failures (0 unexpected) in 6.322 (6.323) seconds
+Test Suite 'marathon.xctest' passed at 2023-03-31 20:16:15.047.
+	 Executed 1 test, with 0 failures (0 unexpected) in 6.322 (6.325) seconds
+Test Suite 'Selected tests' passed at 2023-03-31 20:16:15.048.
+	 Executed 1 test, with 0 failures (0 unexpected) in 6.322 (6.329) seconds
+
+Test session results, code coverage, and logs:
+	/tmp/marathon/F3F98035-FD4D-4F6E-B0C2-5994BBF3BC36/F3F98035-FD4D-4F6E-B0C2-5994BBF3BC36.4989a1ff-e541-49de-b272-cc3174742a00.xcresult
+
+** TEST EXECUTE SUCCEEDED **
+

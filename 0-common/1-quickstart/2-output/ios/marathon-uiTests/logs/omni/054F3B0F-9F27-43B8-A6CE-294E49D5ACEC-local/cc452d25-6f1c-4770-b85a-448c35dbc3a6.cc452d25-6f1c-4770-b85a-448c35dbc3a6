@@ -1,0 +1,12 @@
+Test Suite 'FlakyTests' passed at 2023-03-31 20:19:19.275.
+	 Executed 1 test, with 0 failures (0 unexpected) in 3.198 (3.199) seconds
+Test Suite 'marathon.xctest' passed at 2023-03-31 20:19:19.277.
+	 Executed 1 test, with 0 failures (0 unexpected) in 3.198 (3.202) seconds
+Test Suite 'Selected tests' passed at 2023-03-31 20:19:19.278.
+	 Executed 1 test, with 0 failures (0 unexpected) in 3.198 (3.205) seconds
+
+Test session results, code coverage, and logs:
+	/tmp/marathon/054F3B0F-9F27-43B8-A6CE-294E49D5ACEC/054F3B0F-9F27-43B8-A6CE-294E49D5ACEC.cc452d25-6f1c-4770-b85a-448c35dbc3a6.xcresult
+
+** TEST EXECUTE SUCCEEDED **
+

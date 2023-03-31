@@ -1,0 +1,30 @@
+name: "My application"
+outputDir: "derived-data/Marathon"
+debug: false
+testClassRegexes: ["^((?!Abstract).)*Tests$"]
+vendorConfiguration:
+  type: "iOS"
+  application: "../../dist/sample-app.app"
+  testApplication: "../../dist/sample-appUITests.xctest"
+# https://docs.marathonlabs.io/configuration/batching#fixed-size-batching
+batchingStrategy:
+  type: "fixed-size"
+  size: 5
+  durationMillis: 60000
+  percentile: 80.0
+  timeLimit: "-PT24H"
+  lastMileLength: 10
+# https://docs.marathonlabs.io/configuration/sorting#execution-time-sorting
+sortingStrategy:
+  type: "execution-time"
+  percentile: 80.0
+  timeLimit: "-PT24H"
+# https://docs.marathonlabs.io/intro/configure#uncompleted-test-retry-quota
+uncompletedTestRetryQuota: 1
+# https://docs.marathonlabs.io/configuration/analytics#influxdb-v2
+analyticsConfiguration:
+  type: "influxdb2"
+  url: "http://influx2.svc.cluster.local:8086"
+  token: "wally-west"
+  organization: "starlabs"
+  bucket: "barry-allen"

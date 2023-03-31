@@ -1,0 +1,23 @@
+    t =     0.00s Start Test at 2023-03-31 20:18:59.326
+    t =     0.06s Set Up
+    t =     0.07s     Open com.malinskiy.marathon.ios.sample-app
+    t =     0.13s         Launch com.malinskiy.marathon.ios.sample-app
+    t =     1.26s             Setting up automation session
+    t =     1.74s             Wait for com.malinskiy.marathon.ios.sample-app to idle
+    t =     3.24s Waiting 30.0s for Button to exist
+    t =     4.32s     Checking `Expect predicate `exists == 1` for object Button`
+    t =     4.32s         Checking existence of `Button`
+    t =     4.36s Tap Button
+    t =     4.36s     Wait for com.malinskiy.marathon.ios.sample-app to idle
+    t =     4.41s     Find the Button
+    t =     4.43s     Check for interrupting elements affecting "First Button" Button
+    t =     4.46s     Synthesize event
+    t =     4.80s     Wait for com.malinskiy.marathon.ios.sample-app to idle
+    t =     5.18s Waiting 30.0s for StaticText to exist
+    t =     6.22s     Checking `Expect predicate `exists == 1` for object StaticText`
+    t =     6.23s         Checking existence of `StaticText`
+    t =     6.25s Find the StaticText
+/Users/malinskiy/Development/marathon/sample/ios-app/sample-appUITests/StoryboardTests.swift:54: error: -[sample_appUITests.StoryboardTests testLabel] : XCTAssertEqual failed: ("First Button") is not equal to ("Label")
+    t =     6.35s Tear Down
+Test Case '-[sample_appUITests.StoryboardTests testLabel]' failed (6.573 seconds).
+Test Suite 'StoryboardTests' failed at 2023-03-31 20:19:05.898.

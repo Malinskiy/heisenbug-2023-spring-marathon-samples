@@ -1,0 +1,8 @@
+Test Suite 'marathon.xctest' failed at 2023-03-31 20:18:37.883.
+	 Executed 1 test, with 1 failure (0 unexpected) in 12.505 (12.510) seconds
+Test Suite 'Selected tests' failed at 2023-03-31 20:18:37.885.
+	 Executed 1 test, with 1 failure (0 unexpected) in 12.505 (12.513) seconds
+
+Test session results, code coverage, and logs:
+	/tmp/marathon/F3F98035-FD4D-4F6E-B0C2-5994BBF3BC36/F3F98035-FD4D-4F6E-B0C2-5994BBF3BC36.f9d69e6e-d3b3-4ec8-94b1-53eb17417cdc.xcresult
+

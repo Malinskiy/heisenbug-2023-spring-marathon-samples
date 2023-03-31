@@ -1,0 +1,22 @@
+    t =     0.00s Start Test at 2023-03-31 20:18:49.593
+    t =     0.06s Set Up
+    t =     0.07s     Open com.malinskiy.marathon.ios.sample-app
+    t =     0.12s         Launch com.malinskiy.marathon.ios.sample-app
+    t =     1.15s             Setting up automation session
+    t =     1.57s             Wait for com.malinskiy.marathon.ios.sample-app to idle
+    t =     2.89s Tap Button
+    t =     2.89s     Wait for com.malinskiy.marathon.ios.sample-app to idle
+    t =     2.93s     Find the Button
+    t =     2.97s     Check for interrupting elements affecting "Second Button" Button
+    t =     3.00s     Synthesize event
+    t =     3.33s     Wait for com.malinskiy.marathon.ios.sample-app to idle
+    t =     3.72s Tap Button
+    t =     3.72s     Wait for com.malinskiy.marathon.ios.sample-app to idle
+    t =     3.80s     Find the Button
+    t =     3.84s     Check for interrupting elements affecting "Close" Button
+    t =     3.87s     Synthesize event
+    t =     4.20s     Wait for com.malinskiy.marathon.ios.sample-app to idle
+    t =     4.51s Find the StaticText
+/Users/malinskiy/Development/marathon/sample/ios-app/sample-appUITests/MoreTests.swift:50: error: -[sample_appUITests.MoreTests testDismissModal] : XCTAssertEqual failed: ("First Button") is not equal to ("Label")
+    t =     4.62s Tear Down
+Test Case '-[sample_appUITests.MoreTests testDismissModal]' failed (4.823 seconds).

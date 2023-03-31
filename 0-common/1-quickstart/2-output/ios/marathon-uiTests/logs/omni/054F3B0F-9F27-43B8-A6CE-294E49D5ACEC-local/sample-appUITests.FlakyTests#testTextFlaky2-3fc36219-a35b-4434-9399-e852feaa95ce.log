@@ -1,0 +1,7 @@
+    t =     0.00s Start Test at 2023-03-31 20:18:00.513
+    t =     0.07s Set Up
+    t =     0.08s     Open com.malinskiy.marathon.ios.sample-app
+    t =     0.15s         Launch com.malinskiy.marathon.ios.sample-app
+    t =     2.12s             Setting up automation session
+    t =     2.75s             Wait for com.malinskiy.marathon.ios.sample-app to idle
+    t =     5.55s Tear Down

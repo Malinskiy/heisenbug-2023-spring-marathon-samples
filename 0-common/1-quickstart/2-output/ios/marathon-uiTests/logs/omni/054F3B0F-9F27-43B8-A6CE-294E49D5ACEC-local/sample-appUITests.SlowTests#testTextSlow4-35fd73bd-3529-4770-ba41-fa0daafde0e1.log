@@ -1,0 +1,24 @@
+Test Case '-[sample_appUITests.SlowTests testTextSlow4]' started.
+    t =     0.00s Start Test at 2023-03-31 20:15:18.541
+    t =     0.04s Set Up
+    t =     0.04s     Open com.malinskiy.marathon.ios.sample-app
+    t =     0.07s         Launch com.malinskiy.marathon.ios.sample-app
+    t =     0.07s             Terminate com.malinskiy.marathon.ios.sample-app:44375
+    t =     1.36s             Setting up automation session
+    t =     1.69s             Wait for com.malinskiy.marathon.ios.sample-app to idle
+    t =     8.08s Waiting 30.0s for Button to exist
+    t =     9.11s     Checking `Expect predicate `exists == 1` for object Button`
+    t =     9.11s         Checking existence of `Button`
+    t =     9.13s Tap Button
+    t =     9.13s     Wait for com.malinskiy.marathon.ios.sample-app to idle
+    t =     9.62s     Find the Button
+    t =     9.64s     Check for interrupting elements affecting "First Button" Button
+    t =     9.67s     Synthesize event
+    t =    10.00s     Wait for com.malinskiy.marathon.ios.sample-app to idle
+    t =    10.34s Waiting 30.0s for StaticText to exist
+    t =    11.36s     Checking `Expect predicate `exists == 1` for object StaticText`
+    t =    11.36s         Checking existence of `StaticText`
+    t =    11.38s Find the StaticText
+/Users/malinskiy/Development/marathon/sample/ios-app/sample-appUITests/SlowTests.swift:91: error: -[sample_appUITests.SlowTests testTextSlow4] : XCTAssertEqual failed: ("First Button") is not equal to ("Label")
+    t =    11.43s Tear Down
+Test Case '-[sample_appUITests.SlowTests testTextSlow4]' failed (11.638 seconds).

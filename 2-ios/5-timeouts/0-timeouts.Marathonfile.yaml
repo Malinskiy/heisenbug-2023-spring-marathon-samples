@@ -4,8 +4,8 @@ debug: false
 testClassRegexes: ["^((?!Abstract).)*Tests$"]
 vendorConfiguration:
   type: "iOS"
-  application: "../../dist/my.app"
-  testApplication: "../../dist/my.xctest"
+  application: "../../dist/sample-app.app"
+  testApplication: "../../dist/sample-appUITests.xctest"
   # https://docs.marathonlabs.io/ios/configure#timeouts
   timeoutConfiguration:
     # ISO_8601 duration

@@ -1,0 +1,20 @@
+    t =     0.00s Start Test at 2023-03-31 20:15:03.792
+    t =     1.18s Set Up
+    t =     1.19s     Open com.malinskiy.marathon.ios.sample-app
+    t =     1.25s         Launch com.malinskiy.marathon.ios.sample-app
+    t =     2.57s             Setting up automation session
+    t =     3.15s             Wait for com.malinskiy.marathon.ios.sample-app to idle
+    t =     4.72s Waiting 30.0s for Button to exist
+    t =     5.75s     Checking `Expect predicate `exists == 1` for object Button`
+    t =     5.75s         Checking existence of `Button`
+    t =     5.79s Tap Button
+    t =     5.79s     Wait for com.malinskiy.marathon.ios.sample-app to idle
+    t =     5.85s     Find the Button
+    t =     5.87s     Check for interrupting elements affecting "Second Button" Button
+    t =     5.89s     Synthesize event
+    t =     6.24s     Wait for com.malinskiy.marathon.ios.sample-app to idle
+    t =     6.64s Checking existence of `StaticText`
+    t =     6.69s Tear Down
+Test Case '-[sample_appUITests.MoreTests testPresentModal]' passed (6.895 seconds).
+Test Suite 'MoreTests' passed at 2023-03-31 20:15:10.686.
+	 Executed 1 test, with 0 failures (0 unexpected) in 6.895 (6.896) seconds

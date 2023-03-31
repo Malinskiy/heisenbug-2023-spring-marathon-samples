@@ -1,0 +1,23 @@
+Test Case '-[sample_appUITests.StoryboardTests testButton]' started.
+    t =     0.00s Start Test at 2023-03-31 20:15:56.704
+    t =     0.05s Set Up
+    t =     0.05s     Open com.malinskiy.marathon.ios.sample-app
+    t =     0.11s         Launch com.malinskiy.marathon.ios.sample-app
+    t =     0.11s             Terminate com.malinskiy.marathon.ios.sample-app:44678
+    t =     1.48s             Setting up automation session
+    t =     2.17s             Wait for com.malinskiy.marathon.ios.sample-app to idle
+    t =     4.66s Waiting 30.0s for Button to exist
+    t =     5.66s     Checking `Expect predicate `exists == 1` for object Button`
+    t =     5.66s         Checking existence of `Button`
+    t =     5.69s Find the Button
+    t =     5.74s Tap "First Button" Button
+    t =     5.74s     Wait for com.malinskiy.marathon.ios.sample-app to idle
+    t =     5.79s     Find the "First Button" Button
+    t =     5.82s     Check for interrupting elements affecting "First Button" Button
+    t =     5.85s     Synthesize event
+    t =     6.21s     Wait for com.malinskiy.marathon.ios.sample-app to idle
+    t =     6.57s Waiting 30.0s for StaticText to exist
+    t =     7.57s     Checking `Expect predicate `exists == 1` for object StaticText`
+    t =     7.58s         Checking existence of `StaticText`
+    t =     7.61s Tear Down
+Test Case '-[sample_appUITests.StoryboardTests testButton]' passed (7.812 seconds).

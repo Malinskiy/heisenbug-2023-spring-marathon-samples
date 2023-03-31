@@ -1,0 +1,76 @@
+    t =     0.00s Start Test at 2023-03-31 20:16:27.950
+    t =     0.05s Set Up
+    t =     0.07s     Open com.malinskiy.marathon.ios.sample-app
+    t =     0.11s         Launch com.malinskiy.marathon.ios.sample-app
+    t =     1.56s             Setting up automation session
+    t =     1.99s             Wait for com.malinskiy.marathon.ios.sample-app to idle
+    t =     3.44s Waiting 30.0s for Button to exist
+    t =     4.47s     Checking `Expect predicate `exists == 1` for object Button`
+    t =     4.47s         Checking existence of `Button`
+    t =     4.52s Find the Button
+    t =     4.58s Tap "Crash Button" Button
+    t =     4.58s     Wait for com.malinskiy.marathon.ios.sample-app to idle
+    t =     4.76s     Find the "Crash Button" Button
+    t =     4.78s     Check for interrupting elements affecting "Crash Button" Button
+    t =     4.81s     Synthesize event
+    t =     5.48s     Wait for com.malinskiy.marathon.ios.sample-app to idle
+    t =     6.32s Waiting 30.0s for "Crash Button" Button to exist
+    t =     7.35s     Checking `Expect predicate `exists == 1` for object "Crash Button" Button`
+    t =     7.35s         Checking existence of `"Crash Button" Button`
+    t =     8.36s         Checking existence of `"Crash Button" Button` (retry 1)
+    t =     9.37s         Checking existence of `"Crash Button" Button` (retry 2)
+    t =     9.37s         Capturing element debug description
+    t =    10.45s     Checking `Expect predicate `exists == 1` for object "Crash Button" Button`
+    t =    10.45s         Checking existence of `"Crash Button" Button`
+    t =    11.46s         Checking existence of `"Crash Button" Button` (retry 1)
+    t =    12.46s         Checking existence of `"Crash Button" Button` (retry 2)
+    t =    12.46s         Capturing element debug description
+    t =    13.49s     Checking `Expect predicate `exists == 1` for object "Crash Button" Button`
+    t =    13.49s         Checking existence of `"Crash Button" Button`
+    t =    14.49s         Checking existence of `"Crash Button" Button` (retry 1)
+    t =    15.57s         Checking existence of `"Crash Button" Button` (retry 2)
+    t =    15.57s         Capturing element debug description
+    t =    16.60s     Checking `Expect predicate `exists == 1` for object "Crash Button" Button`
+    t =    16.60s         Checking existence of `"Crash Button" Button`
+    t =    17.60s         Checking existence of `"Crash Button" Button` (retry 1)
+    t =    18.60s         Checking existence of `"Crash Button" Button` (retry 2)
+    t =    18.61s         Capturing element debug description
+    t =    19.63s     Checking `Expect predicate `exists == 1` for object "Crash Button" Button`
+    t =    19.63s         Checking existence of `"Crash Button" Button`
+    t =    20.63s         Checking existence of `"Crash Button" Button` (retry 1)
+    t =    21.63s         Checking existence of `"Crash Button" Button` (retry 2)
+    t =    21.63s         Capturing element debug description
+    t =    22.65s     Checking `Expect predicate `exists == 1` for object "Crash Button" Button`
+    t =    22.65s         Checking existence of `"Crash Button" Button`
+    t =    23.65s         Checking existence of `"Crash Button" Button` (retry 1)
+    t =    24.69s         Checking existence of `"Crash Button" Button` (retry 2)
+    t =    24.69s         Capturing element debug description
+    t =    25.72s     Checking `Expect predicate `exists == 1` for object "Crash Button" Button`
+    t =    25.72s         Checking existence of `"Crash Button" Button`
+    t =    26.73s         Checking existence of `"Crash Button" Button` (retry 1)
+    t =    27.73s         Checking existence of `"Crash Button" Button` (retry 2)
+    t =    27.73s         Capturing element debug description
+    t =    28.76s     Checking `Expect predicate `exists == 1` for object "Crash Button" Button`
+    t =    28.76s         Checking existence of `"Crash Button" Button`
+    t =    29.76s         Checking existence of `"Crash Button" Button` (retry 1)
+    t =    30.79s         Checking existence of `"Crash Button" Button` (retry 2)
+    t =    30.79s         Capturing element debug description
+    t =    31.80s     Checking `Expect predicate `exists == 1` for object "Crash Button" Button`
+    t =    31.80s         Checking existence of `"Crash Button" Button`
+    t =    32.80s         Checking existence of `"Crash Button" Button` (retry 1)
+    t =    33.80s         Checking existence of `"Crash Button" Button` (retry 2)
+    t =    33.80s         Capturing element debug description
+    t =    34.82s     Checking `Expect predicate `exists == 1` for object "Crash Button" Button`
+    t =    34.83s         Checking existence of `"Crash Button" Button`
+    t =    35.83s         Checking existence of `"Crash Button" Button` (retry 1)
+    t =    36.64s         Checking existence of `"Crash Button" Button` (retry 2)
+    t =    36.64s         Capturing element debug description
+    t =    36.64s Checking existence of `"Crash Button" Button`
+    t =    37.65s Checking existence of `"Crash Button" Button` (retry 1)
+    t =    38.65s Checking existence of `"Crash Button" Button` (retry 2)
+/Users/malinskiy/Development/marathon/sample/ios-app/sample-appUITests/CrashingTests.swift:37: error: -[sample_appUITests.CrashingTests testButton] : XCTAssertTrue failed
+    t =    38.72s Tear Down
+    t =    38.72s Checking for crash reports corresponding to unexpected termination of com.malinskiy.marathon.ios.sample-app
+Test Case '-[sample_appUITests.CrashingTests testButton]' failed (58.723 seconds).
+Test Suite 'CrashingTests' failed at 2023-03-31 20:17:26.672.
+	 Executed 1 test, with 1 failure (0 unexpected) in 58.723 (58.725) seconds

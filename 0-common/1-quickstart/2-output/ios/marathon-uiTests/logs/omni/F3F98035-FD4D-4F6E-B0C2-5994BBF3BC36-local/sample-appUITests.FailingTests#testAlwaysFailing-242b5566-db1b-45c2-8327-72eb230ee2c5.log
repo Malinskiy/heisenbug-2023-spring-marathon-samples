@@ -1,0 +1,10 @@
+Test Case '-[sample_appUITests.FailingTests testAlwaysFailing]' started.
+    t =     0.01s Start Test at 2023-03-31 20:16:35.175
+    t =     0.06s Set Up
+    t =     0.07s     Open com.malinskiy.marathon.ios.sample-app
+    t =     0.13s         Launch com.malinskiy.marathon.ios.sample-app
+    t =     1.53s             Setting up automation session
+    t =     2.10s             Wait for com.malinskiy.marathon.ios.sample-app to idle
+/Users/malinskiy/Development/marathon/sample/ios-app/sample-appUITests/FailingTests.swift:31: error: -[sample_appUITests.FailingTests testAlwaysFailing] : XCTAssertTrue failed
+    t =     3.57s Tear Down
+Test Case '-[sample_appUITests.FailingTests testAlwaysFailing]' failed (3.769 seconds).

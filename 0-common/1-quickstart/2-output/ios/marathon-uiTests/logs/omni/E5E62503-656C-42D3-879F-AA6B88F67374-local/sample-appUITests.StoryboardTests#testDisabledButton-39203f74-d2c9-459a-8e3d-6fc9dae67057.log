@@ -1,0 +1,13 @@
+Test Case '-[sample_appUITests.StoryboardTests testDisabledButton]' started.
+    t =     0.00s Start Test at 2023-03-31 20:16:04.517
+    t =     0.58s Set Up
+    t =     0.58s     Open com.malinskiy.marathon.ios.sample-app
+    t =     0.65s         Launch com.malinskiy.marathon.ios.sample-app
+    t =     0.65s             Terminate com.malinskiy.marathon.ios.sample-app:44701
+    t =     1.95s             Setting up automation session
+    t =     2.43s             Wait for com.malinskiy.marathon.ios.sample-app to idle
+    t =     3.94s Waiting 30.0s for Button to exist
+    t =     4.94s     Checking `Expect predicate `exists == 1` for object Button`
+    t =     4.94s         Checking existence of `Button`
+    t =     4.99s Find the Button
+    t =     5.03s Tear Down

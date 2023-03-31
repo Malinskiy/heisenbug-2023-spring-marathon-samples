@@ -1,0 +1,12 @@
+name: "My application"
+outputDir: "derived-data/Marathon"
+debug: false
+testClassRegexes: ["^((?!Abstract).)*Tests$"]
+vendorConfiguration:
+  type: "iOS"
+  application: "../../dist/sample-app.app"
+  testApplication: "../../dist/sample-appUITests.xctest"
+  # https://docs.marathonlabs.io/ios/configure#xctestrun-environment-variables
+  xctestrunEnv:
+    MY_ENV_VAR_1: A
+    MY_ENV_VAR_2: B

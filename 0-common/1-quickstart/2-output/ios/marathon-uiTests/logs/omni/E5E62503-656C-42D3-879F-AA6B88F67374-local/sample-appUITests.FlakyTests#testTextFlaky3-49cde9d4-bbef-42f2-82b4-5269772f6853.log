@@ -1,0 +1,7 @@
+    t =     0.82s Set Up
+    t =     0.83s     Open com.malinskiy.marathon.ios.sample-app
+    t =     0.89s         Launch com.malinskiy.marathon.ios.sample-app
+    t =     2.07s             Setting up automation session
+    t =     2.48s             Wait for com.malinskiy.marathon.ios.sample-app to idle
+    t =     3.84s Tear Down
+Test Case '-[sample_appUITests.FlakyTests testTextFlaky3]' passed (4.053 seconds).
