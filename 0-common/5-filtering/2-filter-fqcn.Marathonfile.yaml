@@ -4,7 +4,7 @@ debug: false
 # https://docs.marathonlabs.io/configuration/filtering#fully-qualified-class-name
 filteringConfiguration:
   allowlist:
-    - type: "fully-qualified-test-name"
+    - type: "fully-qualified-class-name"
       values:
         - "com.example.MainActivityTest"
 vendorConfiguration:
