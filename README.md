@@ -65,6 +65,8 @@ Classification of retries
 * Prediction error (sorting strategy)
 
 ## Filtering
+0. Testing logic
+
 1. Fully qualified test name
 2. Fully qualified class name
 3. Simple class name
