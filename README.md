@@ -85,7 +85,7 @@ Filtering by:
    a. Envvar interpolation
    b. Filtering values file
    c. Custom templating (i.e. [liquid](https://shopify.github.io/liquid/))
-
+--- 
 # Android
 ## Connecting devices
 Android debug bridge
