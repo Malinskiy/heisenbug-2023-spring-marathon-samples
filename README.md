@@ -1,4 +1,4 @@
-# Marathon test runner: разбираемся и настраиваем Android & iOS
+# Marathon test runner: setup and configuration for Android & iOS
 ## Relevant links
 ### Sample apps
 Android: https://github.com/MarathonLabs/marathon/tree/0.8.1/sample/android-app
